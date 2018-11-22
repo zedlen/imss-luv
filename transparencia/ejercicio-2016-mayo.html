@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr"
+
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.imss.gob.mx/sites/all/statics/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="http://imss.gob.mx/node/96254" />
+<link rel="canonical" href="ejercicio-2016-mayo.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+    <meta name="google-site-verification" content="brVPI8wDmcNRLWQWUSXd_3qafz9h8-vANQeVH3P-Kw8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cleartype" content="on" />
+    <meta name="google-site-verification" content="ycnNxAEkaJvDj3_M4pHxEqVW8MTe8EZsBk6OnRBP4dU" /> 
+    <link rel="shortcut icon" href="https://framework-gb.cdn.gob.mx/favicon.ico">
+    <title>Sitio Web "Acercando el IMSS al Ciudadano"</title>
+
+
+  <link type="text/css" rel="stylesheet" href="http://www.imss.gob.mx/sites/all/statics/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.imss.gob.mx/sites/all/statics/css/css_SQTJMKIip3Xa2On6LztwzgQUV8Xqv5eNwqHwel1J9DU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.imss.gob.mx/sites/all/statics/css/css_fMPx1t8A6k1C_1ml4n4ZtHmNljcaa6rj2F6uMi3xi7E.css" media="all" />
+<style type="text/css" media="all"><!--/*--><![CDATA[/*><!--*/
+.tb-megamenu.animate .mega > .mega-dropdown-menu,.tb-megamenu.animate.slide .mega > .mega-dropdown-menu > div{transition-delay:200ms;-webkit-transition-delay:200ms;-ms-transition-delay:200ms;-o-transition-delay:200ms;transition-duration:400ms;-webkit-transition-duration:400ms;-ms-transition-duration:400ms;-o-transition-duration:400ms;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="http://www.imss.gob.mx/sites/all/statics/css/css_44hxyFfeMDuHNPxibjiViC-KNXwfX379OTWb0i6EE48.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.imss.gob.mx/sites/all/statics/css/css_2THG1eGiBIizsWFeexsNe1iDifJ00QRS9uSd03rY9co.css" media="print" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.imss.gob.mx/sites/all/statics/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script type="text/javascript" src="http://www.imss.gob.mx/sites/all/statics/js/js_kqNnDwc9jEwcumkCqdSKFY5rBOQH1lwDUX_cqR2MWGU.js"></script>
+<script type="text/javascript" src="http://www.imss.gob.mx/sites/all/statics/js/js_-j4JKCwMba8IbaqRu7ThZkzU3lk2OyZO-Ume7EC-1n8.js"></script>
+<script type="text/javascript" src="http://www.imss.gob.mx/sites/all/statics/js/js_bO8MwQN0eVnUDb155oSCnta1BxySHz4AsvdOlmaN6GU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"responsive_bartik_imss","theme_token":"2qfBvE4Uf1jQdSKoa-z_dtG-RbcL7trcdwSc0mKZfOc","js":{"http:\/\/code.jquery.com\/jquery-1.8.2.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"public:\/\/languages\/es_ieBpAFJh3_K-DoRuUs86lWFCx2KRBsbgBRlBF6cPYKA.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-touch.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/collapsible-menu.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/ficha.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/directorio.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/tramites.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/faqAcordeon.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/array_indexOf.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/cargarVista.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/menuHome.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/jquery-migrate-1.2.1.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/jquery.tooltip.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/wai-aria-improvements.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/webform_pager\/css\/webform_pager.css":1,"sites\/all\/modules\/webform_pager\/css\/style-my-tooltips.css":1,"sites\/all\/modules\/workflow\/workflow_admin_ui\/workflow_admin_ui.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/libraries\/colorbox\/example1\/colorbox.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/tb_megamenu\/fonts\/font-awesome\/css\/font-awesome.css":1,"sites\/all\/modules\/tb_megamenu\/css\/bootstrap.css":1,"sites\/all\/modules\/tb_megamenu\/css\/base.css":1,"sites\/all\/modules\/tb_megamenu\/css\/default.css":1,"sites\/all\/modules\/tb_megamenu\/css\/compatibility.css":1,"sites\/all\/modules\/tb_megamenu\/css\/styles\/imss.css":1,"0":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/responsive.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/layout.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/style.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/colors.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/header.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/footer.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/news_slider.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/imss.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/tramites.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/comunicados.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/directorio.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/faqSalud.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/ficha.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/nivel2.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/contactos.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/normas.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/styleImssExterna.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/encuestas.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/print.css":1}},"colorbox":{"transition":"fade","speed":"350","opacity":"0.90","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"maxWidth":"98%","maxHeight":"98%","initialWidth":"","initialHeight":"","fixed":true,"scrolling":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"extlink":{"extTarget":"_blank","extClass":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":".no_external","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":"mailto"}});
+//--><!]]>
+</script>
+  <!--[if (gte IE 6)&(lte IE 8)]>
+    <script src="/sites/all/themes/responsive_bartik_imss/js/selectivizr-min.js"></script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+    <script src="/sites/all/themes/responsive_bartik_imss/js/html5-respond.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
+
+<!--<script type="text/javascript" id="User1st_Loader" src="https://fe.user1st.info/Loader/head"></script>-->
+<script type="text/javascript" id="User1st_Loader">
+	var _u1stSettings = {
+			analytics:
+			[
+				{"name":"create" , "trace": function(traceItem){ trace(traceItem); }}
+			],
+			tracing: 
+			{
+				gaAccount: 'UA-47165435-1'
+			}
+		};
+		
+		function trace(e){for(var s=function(e,s){return["_trackEvent","User1st",e,s]},a=function(e){var a=[],r="User1st.FE.";switch(e.name.toLowerCase()){case"mainmenu.open":a.push(s(r+"MainMenu.Open",""));break;case"mainmenu.close":a.push(s(r+"MainMenu.Close",""));break;case"sys.profileselected":a.push(s(r+"Sys.ProfileSelected",e.values.profileID));break;case"sys.featureschanged":for(var u=e.values.removedFeatures.split("|"),n=0;n<u.length;n++)a.push(s(r+"Sys.feature-TurnOff",u[n]));for(var t=e.values.selectedFreatures.split("|"),n=0;n<t.length;n++)a.push(s(r+"Sys.feature-TurnOn",t[n]));break;case"sys.userfeedback":keyValuePairs.push(r+"Sys.UserFeedback",e.values.type+" - "+e.values.content)}return a}(e),r=0;r<a.length;r++)_gaq.push(a[r])}
+
+		var script = "<script type='text/javascript' src='https://fecdn.user1st.info/loader/head' ";
+	 (!(/u1st-runSync=1/).test(document.cookie)) && (script += "async='true'");
+	 script += " ><\/script>";
+	 document.write(script);
+ </script>
+   
+
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-96254 node-type-page" >
+  <!--<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable"></a>
+  </div>-->
+    
+  <div class="region region-topheader">
+    <div id="block-block-19" class="block block-block">
+
+    <h2>no banner</h2>
+  
+  <div class="content">
+    <br>  </div>
+</div>
+  </div>
+<main class="page"><div id="page" class="container">
+
+
+  <header id="header" role="heading" class="without-secondary-menu"><div class="section clearfix">
+        
+    
+    
+          <div id="name-and-slogan" class="element-invisible">
+
+                              <div id="site-name" class="element-invisible">
+              <strong>
+                <a href="../index.html" title="Inicio" rel="home"><span>Sitio Web "Acercando el IMSS al Ciudadano"</span></a>
+              </strong>
+            </div>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+    
+      <div class="region region-header">
+    <div id="block-tb-megamenu-main-menu" class="block block-tb-megamenu">
+
+    
+  <div class="content">
+    
+
+
+<nav class="navbar navbar-inverse sub-navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces">
+        <span class="sr-only">Interruptor de Navegación</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html">IMSS</a>
+    </div>
+    <div class="collapse navbar-collapse" id="subenlaces">
+     <ul class="nav navbar-nav navbar-right">
+  <li>
+  <a href="../index.html" >
+        
+    Inicio          </a>
+  </li>
+
+<li>
+  <a href="../conoce-al-imss.html" >
+        
+    Conoce al IMSS          </a>
+  
+              <ul class="dropdown-menu" role="menu">
+  <li>
+  <a href="../conoce-al-imss.html" >
+        
+    Acerca del IMSS          </a>
+  </li>
+
+<li>
+  <a href="../prensa.html" >
+        
+    Sala de Prensa          </a>
+  </li>
+
+<li>
+  <a href="../galeria.html" >
+        
+    Galería          </a>
+  </li>
+
+<li>
+  <a href="http://datos.imss.gob.mx/" >
+        
+    Datos abiertos IMSS          </a>
+  </li>
+
+<li>
+  <a href="../tramites.html" >
+        
+    Trámites y servicios          </a>
+  
+              <ul class="dropdown-menu" role="menu">
+  <li>
+  <a href="../derechoH.html" >
+        
+    Derechohabientes          </a>
+  </li>
+
+<li>
+  <a href="../patrones.html" >
+        
+    Patrones o Empresas          </a>
+  </li>
+
+<li>
+  <a href="../proveedores.html" >
+        
+    Proveedores del IMSS          </a>
+  </li>
+
+<li>
+  <a href="../profesionales-salud.html" >
+        
+    Profesionales de la Salud          </a>
+  </li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+  <a href="../transparencia.html" >
+        
+    Transparencia          </a>
+  
+              <ul class="dropdown-menu" role="menu">
+  <li>
+  <a href="../transparencia.html" >
+        
+    IMSS Transparente          </a>
+  </li>
+
+<li>
+  <a href="normatividad-fp.html" >
+        
+    Normatividad          </a>
+  </li>
+
+<li>
+  <a href="comite-informacion-fp.html" >
+        
+    Acceso a la información          </a>
+  </li>
+
+<li>
+  <a href="proactiva-fp.html" >
+        
+    Transparencia Proactiva          </a>
+  </li>
+
+<li>
+  <a href="participacion-ciudadana.html" >
+        
+    Participación Ciudadana          </a>
+  </li>
+
+<li>
+  <a href="indicadores-estudios.html" >
+        
+    Indicadores          </a>
+  </li>
+
+<li>
+  <a href="recomendaciones-fp.html" >
+        
+    Recomendaciones y Resoluciones por Disposición          </a>
+  </li>
+
+<li>
+  <a href="http://www.imss.gob.mx/sites/all/statics/pdf/transparencia/FP-EstudiosOpiniones.pdf" >
+        
+    Estudios financiados          </a>
+  </li>
+
+<li>
+  <a href="rendicion-cuentas-fp.html" >
+        
+    Programas e informes          </a>
+  </li>
+
+<li>
+  <a href="normatividad-fp.html" >
+        
+    Normatividad en transparencia          </a>
+  </li>
+</ul>
+</li>
+
+<li>
+  <a href="../directorio.html" >
+        
+    Directorio          </a>
+  
+              <ul class="dropdown-menu" role="menu">
+  <li>
+  <a href="../directorio.html" >
+        
+    Directorio de instalaciones          </a>
+  </li>
+
+<li>
+  <a href="http://portaltransparencia.gob.mx/pot/directorio/begin.do?method=begin&amp;_idDependencia=641" >
+        
+    Directorio de funcionarios          </a>
+  </li>
+</ul>
+</li>
+
+<li>
+  <a href="../contacto.html" >
+        
+    Contacto          </a>
+  </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+
+<!--<div class="warning-nav">
+	    <p>Este contenido será modificado temporalmente en atención a las disposiciones legales y normativas en materia electoral, con motivo del inicio de periodo de campaña</p>
+	 </div>-->
+  </div>
+</div>
+  </div>
+
+      </div></header> <!-- /.section, /#header -->
+
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main"  class="clearfix">
+
+        <div id="breadcrumb">  <div class="region region-breadcrumb">
+    <div id="block-easy-breadcrumb-easy-breadcrumb" class="block block-easy-breadcrumb">
+
+    
+  <div class="content">
+    <ol class="breadcrumb"><li><a href="../index.html"><span class="icon icon-home"></span><span class="sr-only"></span></a></li><li></li> <li><a href="../index.html" class="easy-breadcrumb_segment easy-breadcrumb_segment-front">Inicio</a> <li> <li><a href="../transparencia.html" class="easy-breadcrumb_segment easy-breadcrumb_segment-1">Transparencia</a> <li> <li><a href="ejercicio-2016-mayo.html" class="easy-breadcrumb_segment easy-breadcrumb_segment-title">Segunda Reunión Plenaria sobre los Derechos de las Personas con Discapacidad</a> <li></ol>  </div>
+</div>
+<div id="block-block-10" class="block block-block">
+
+    
+  <div class="content">
+    <!-- AddThis Smart Layers BEGIN -->
+<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+<!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=imss"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'transparent',
+    'share' : {
+      'position' : 'left',
+      'numPreferredServices' : 5
+    }   
+  });
+</script>-->
+<!-- AddThis Smart Layers END -->  </div>
+</div>
+  </div>
+</div>    
+    <div id="content" class="column" role="main"><div class="section">
+            <a id="main-content"></a>
+                    <h2 id="page-title">
+          Segunda Reunión Plenaria sobre los Derechos de las Personas con Discapacidad        </h2>
+        <hr class="red">
+                          <div class="tabs">
+                  </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <article id="node-96254" class="node node-page node-full clearfix" about="/transparencia/ejercicio-2016-mayo" typeof="foaf:Document" role="article">
+
+      <span property="dc:title" content="Segunda Reunión Plenaria sobre los Derechos de las Personas con Discapacidad" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><main class="page">
+         <div class="container">
+<div class="row">
+  <div >
+<br>
+<p>&nbsp;&nbsp;</p>
+<div class="dcolumnas" style="font-family:Verdana;font-size:12px;">
+  <div style="text-align:center;">
+    <link rel="stylesheet" href="http://imss.gob.mx/sites/all/statics/riss/flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> 
+    <script src="http://imss.gob.mx/sites/all/statics/riss/jquery.flexslider-min.js"></script>
+    <div style="width:490px;margin:auto;">
+      <div class="flexslider">
+        <ul class="slides">
+<li> <img src="http://imss.gob.mx/sites/all/statics/pdf/transparencia/Participacion/galeria2016/may-1.jpg" alt="" /> </li>
+<li> <img src="http://imss.gob.mx/sites/all/statics/pdf/transparencia/Participacion/galeria2016/may-2.jpg" alt="" /> </li>
+<li> <img src="http://imss.gob.mx/sites/all/statics/pdf/transparencia/Participacion/galeria2016/may-3.jpg" alt="" /> </li>
+<li> <img src="http://imss.gob.mx/sites/all/statics/pdf/transparencia/Participacion/galeria2016/may-4.jpg" alt="" /> </li>
+<li> <img src="http://imss.gob.mx/sites/all/statics/pdf/transparencia/Participacion/galeria2016/may-4.jpg" alt="" /> </li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript">
+         $('.flexslider').flexslider({
+           animation: "slide",
+           animationLoop: true,
+           slideshow: true,
+           directionNav: false, 
+         });
+      </script> 
+  </div>
+<p>&nbsp;&nbsp;</p> 
+                
+<table class="table table-bordered table-striped" style="width:1000px"> 
+                 
+                     <tbody>
+                     <caption style="text-align:center"><strong>Participación Ciudadana</strong></caption>
+                        <tr>
+          <th width="200" scope="col"><p align="center"><strong>Tópico</strong></p></th>
+          <th width="800" scope="col"><p align="center"><strong>Detalle </strong></p></th>
+          </tr>
+        <tr>
+          <td style="text-align:left">Nombre del Organo Colegiado</td>
+          <td style="text-align:left">Comité Institucional sobre los Derechos de las Personas con Discapacidad</td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Número de sesión</td>
+           <td style="text-align:left">Segunda Reunión Plenaria </td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Lugar y fecha</td>
+          <td style="text-align:left"><p>Sala Poniente del Edificio Central  del Instituto Mexicano del Seguro Social, ubicado en Avenida Paseo de la Reforma  476.</p>
+27 de mayo de 2016</td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Temas abordados</td>
+           <td style="text-align:left">    <OL style="margin-left:20px">
+             <li>Bienvenida y  presentación.</li>
+             <li>Aprobación del Orden  del Día. </li>
+             <li>Plan de trabajo 2016: Comités  Delegacionales. Primer informe trimestral. </li>
+             <li>Avances del Plan de Trabajo  2016 de los Grupos de Trabajo. </li>
+             <li>Criterios de Accesibilidad  2016. </li>
+             <li>Programas Gubernamentales. </li>
+             <li>Acuerdos y conclusiones. </li>
+             <li>Asuntos generales.</li>
+    </OL></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Participantes</td>
+           <td style="text-align:left"><OL style="margin-left:20px">
+             <li>Lic. Claudia Aceves Amezcua.<br>
+               <b>Secretaría General.</b></li>
+             <li>Act. Angel Gámez González.<br>
+               <b>Titular de las Coordinación de Asesores de Finanzas.</b></li>
+             <li>Dr. Saúl Nevarez Jiménez.<br>
+               <b>Titular de la División de Salud en el Trabajo.</b></li>
+             <li>Lic. Ma. Eva López Carrillo.<br>
+               <b>Salud en el Trabajo.</b></li>
+             <li>Lic. Antonio Martínez Mendoza.<br>
+               <b>Titular de la Coordinación de Comunicación Interna.</b></li>
+             <li>Lic. María Teresa Geraldine Medina Belmont.<br>
+               <b>Titular de la División de Información y Seguimiento de Auditoría    Dependiente de la Coordinación de Nómina de Mando, Evaluación y Mejora de    Procesos de Recursos Humanos.</b></li>
+             <li>Ing. Antonio Matías López Gómez.<br>
+               <b>Titular de la Coordinación de Modernización Administrativa.</b></li>
+             <li>C.P. Arturo Ornelas Patiño.<br>
+               <b>Titular de la Coordinación Técnica de Programas Gubernamentales</b></li>
+             <li>Lic. José Antonio Jiménez Zárate, <br>
+               <b>Titular de la División de Capacitación y    Adiestramiento Técnico y Coordinador del Grupo de Trabajo   PreDiSenCaDi. </b></li>
+             <li>Arq. Francisco Josué Cortes Enríquez.<br>
+               <b>Titular de la Coordinación Técnica de Proyectos y Construcción de Inmuebles.</b></li>
+             <li>Lic. Guerty Arzate Ruiz.<br>
+               <b>Titular de la Coordinación de Servicios Administrativos.</b></li>
+             <li>Lic. Gerardo Miguel Ramírez Fraga.<br>
+               <b>Titular de la Coordinación de Servicios Administrativos y de Mejora    Continua de Procesos de Incorporación y Recaudación.</b></li>
+             <li>Ing. Edgar Israel Gutiérrez Vargas.<br>
+               <b>Coordinación de Servicios Administrativos.</b></li>
+             <li>Lic. Julio César Servín Juárez.<br>
+               <b>Titular de la División de Mejora Continua.</b></li>
+             <li>Lic. Juan Maccise Naime.<br>
+               <b>Titular de la Coordinación de Vinculación con Organizaciones Públicas,    Privadas y Sociales.</b></li>
+             <li>Lic. Claudia Luz Herver Serrano<br>
+               <b>Titular de la Jefatura de División Coordinación Técnica de Análisis y    Seguimiento a Evaluaciones.</b></li>
+             <li>Mtra. María del Carmen Ramirez Mendoza.<br>
+               <b>IMSS-Prospera.</b></li>
+             <li>Lic. Sergio Covarrubias Díaz.<br>
+               <b>Coordinación Técnica de Atención y Orientación.</b></li>
+             <li>Lic.    Miriam Uribe Arizmendi <br>
+               <b>Titular    de la División de Cultura Institucional de Igualdad </b></li>
+             <li>Lic. Aurelio Franza García.<br>
+               <b>División de Cultura Institucional de Igualdad </b></li>
+             <li>Lic. Jose Francisco Justo Romero.<br>
+               <b>Titular de la División de Apoyo Técnico Legal.</b></li>
+             <li>Lic. Alma Josefina Franco De Nova.<br>
+               <b>Dirección Jurídica.</b></li>
+             <li>Lic. Vanessa Álvarez Pérez.<br>
+               <b>División de Desarrollo Integral Infantil.</b></li>
+             <li>Dra. Diana Karina Ruiz García.<br>
+               <b>Coordinación Salud en el Trabajo.<br>
+                 División de Discapacidad.</b></li>
+             <li>Lic. Alejandra Gómez Prado.<br>
+               <b>Coordinación de Capacitación.</b></li>
+             <li>Arq. Pamela Hernández García.<br>
+               <b>Titular de División de Proyectos.</b></li>
+             <li>Lic. Paulina Castrejón Cuevas.<br>
+               <b>Coordinación Técnica de Administración de Activos.</b></li>
+             <li>Arq. Clara Elena Espinosa Fierro.<br>
+               <b>Coordinación Técnica de Administración de Activos.</b></li>
+             <li>Arq. Juan Antonio Padilla.<br>
+               <b>Coordinación Técnica de Administración de Activos.</b></li>
+             <li>Arq. Rodolfo Palacios Meléndez.<br>
+               <b>División de Proyectos.</b></li>
+             <li>Lic. Ileana Dinorah Velasco Cano.<br>
+               <b>Coordinación de Comunicación Interna.</b></li>
+             <li>Lic. Jose Francisco Olivares Rodríguez.<br>
+               <b>Vinculación con Organizaciones.</b></li>
+             <li>Lic. Mariana Vázquez Tagle.<br>
+               <b>División de Atención Ciudadana.</b></li>
+             <li>Lic. José Antonio Aguirre.<br>
+               <b>División de Atención a Quejas.</b></li>
+             <li>Lic. Francisco Miguel Reyes Torres.<br>
+               <b>Unidad de Congresos.</b></li>
+             <li>Lic. Armando Orozco Salazar<br>
+               <b>División Centros Vacacionales.</b></li>
+             <li>Dr. Guillermo Salvador Guerrero Domínguez.<br>
+               <b>Unidades de Rehabilitación.</b></li>
+             <li>C.P. Verónica Patricia Rangel Barajas. <br>
+               <b>División de Capacitación y Adiestramiento Técnico.</b></li>
+             <li>Lic. Silvia Beltrán Tejeda.<br>
+               <b>Programa Institucional sobre los Derechos de las Personas con    Discapacidad.</b></li>
+             <li>Lic. Yunuen Itandehui Córdova Camacho.<br>
+               <b>Institucional sobre los Derechos de las Personas con Discapacidad.</b></li>
+             <li>Irma Cristina González Palacios.<br>
+               <b>Programa Institucional sobre los Derechos de las Personas con Discapacidad.</b></li>
+             <li>C.P. Enrique Medel Bolaños. <br>
+               <b>CONADIS. </b></li>
+             <li>Lic. Mauricio Melgar Álvarez.<br>
+               <b>CNDH.</b></li>
+             <li>Arq. Janett Jiménez Santos.<br>
+               <b>CAN LAH, S.C.</b></li>
+             <li>Francisco Villa y Betancourt.<br>
+               <b> Coordinador Nacional de Asociaciones Civiles. </b></li>
+             <li>Lic. Nancy Ariza. <br>
+               <b> Linkenium S.C.</b></li>
+             <li>Lic. Lourdes Arreola Prado. <br>
+               <b> Linkenium S.C.</b></li>
+             <li>Ing. Pablo Rugerio González.<br>
+               <b>Juntos por la Equidad A.C.</b></li>
+             <li>Lic. Gloria Olivera Villaseñor.<br>
+               <b>Clínica Mexicana del Autismo.</b></li>
+             <li></li>
+            </ol></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Desarrollo de la sesión</td>
+           <td style="text-align:left"><p>El Lic. José Antonio  Jiménez Zárate, Titular de la División de Capacitación y Adiestramiento Técnico  y Coordinador del Grupo de Trabajo Prevención de la Discriminación,  Sensibilización, Capacitación y Difusión (PreDiSenCaDi) dio la bienvenida a los  asistentes e informó que por haber sido convocado a una reunión urgente no  sería posible la asistencia del Coordinador de Bienestar Social y Presidente  Suplente de este Comité, Lic. Benito Gerardo Carranco Ortíz y que de acuerdo a  sus instrucciones  procedería a llevar la  reunión, por lo que dio la bienvenida a las y los asistentes y señaló que  existía quorum.</p>
+             <p> <strong>Plan de Trabajo 2016:  Comités Delegacionales. Primer Informe Trimestral.</strong> <br>
+               El  moderador, informó que se han recibido las treinta y cinco Actas Constitutivas  y los correspondientes Planes de Trabajo de los Comités Delegacionales. </p>
+             <p>Continuó  señalando que de las acciones realizadas en las delegaciones, se destaca la  modificación a los mostradores de Atención al Derechohabiente en Chiapas, la  firma un Convenio con la Delegación Política y Protección Civil sobre  accesibilidad en la DF Sur y el trabajo de Capacitación sobre temas de equidad  de género y lenguaje incluyente para todas y todos los  trabajadores de esa demarcación, a través de la Coordinación de Competitividad  y Capacitación- SNTSS en la DF Norte y que tiene dos proyectos uno sobre una  biblioteca incluyente y el de recetas accesibles. </p>
+             <p>Por  lo que se refiere al Primer Informe Trimestral 2016 de las tres líneas  generales de acción, mencionó que en la primera referente a &ldquo;Integración de las  Personas con Discapacidad a la vida social y productiva&rdquo;, se ofrecieron 150,117  consultas médicas de rehabilitación y se proporcionaron 299 prótesis, órtesis y  ayudas técnicas. </p>
+             <p>Respecto  de la segunda línea de acción &ldquo;Educación para la Prevención&rdquo;, informó que se  han realizado 220 adecuaciones arquitectónicas de acuerdo a los Criterios  Técnicos de Accesibilidad y en relación a la última línea de acción  &ldquo;Sensibilización Institucional&rdquo;, indicó que han impartido 707 pláticas de  sensibilización e información al personal y padres de familia en las guarderías  del Instituto y que se han registrado 1,975 niños y niñas con discapacidad leve  o no dependiente y moderada, inscritos en guarderías. </p>
+             <p><strong>Avances del Plan de  Trabajo 2016 de los Grupos de Trabajo.</strong> <br>
+               En uso de la palabra el Lic.  Rodrigo Fernández Medina, Titular de la División de  Vinculación con Organizaciones Obreras y  Coordinador del Grupo de Trabajo de Legislación, señaló que de enero a mayo se  llevaron a cabo cuatro sesiones ordinarias y una extraordinaria, en donde se  han tratado diferentes proyectos como la Encuesta a Nivel Delegacional, que se  está elaborando para identificar el nivel de conocimiento del personal del  Instituto en el tema de los derechos de las Personas con Discapacidad,  asimismo, mencionó que se ha participado con la Coordinación Técnica de  Programas Gubernamentales en el tema de la Encuesta de Clima Y Cultura  Organizacional (ECCO) para que el próximo año se incluya la siguiente pregunta  ¿En mi área se difunden los derechos de las personas con discapacidad? y  concluyó diciendo que en junio se dará seguimiento a las líneas de acción del  Programa Nacional para el Desarrollo y la Inclusión de las Personas con  Discapacidad. </p>
+             <p>En uso de la palabra el Ing.  Pablo Rugerio González, Presidente de la Asociación Juntos por la Equidad A.C.,  preguntó si la visión de la Encuesta a Nivel Delegacional que realizarán, será  con miras a la Convención sobre los Derechos de las Personas con Discapacidad,  a la Comisión de los Derechos Humanos o será a nivel interno.</p>
+             <p>El Lic. Rodrigo Fernández  Medina informó que será una encuesta interna en la que se pretende percibir el  nivel de conocimiento de discapacidad de las y los funcionarios que laboran en  el IMSS. y permitirá que en un futuro se puedan concretar objetivos más  específicos en capacitación, promoción y   difusión sobre el tema de discapacidad.</p>
+             <p>En  uso de la palabra el Lic. José Antonio Jiménez Zárate, informó que este tema se  ha analizó en el Grupo de Trabajo de PreDiSenCaDi y la intención original es  ver hasta donde se ha alcanzado a penetrar con todos los esfuerzos que se  vienen haciendo sobre el Trato adecuado a las Personas con Discapacidad, en el  Comité Institucional sobre los Derechos de las Personas con Discapacidad, los  Comités Delegacionales y los Grupos de Trabajo a nivel nacional. </p>
+             <p>El Lic. José Antonio Jiménez Zarate, informó  que se está impartiendo el curso Lengua de Señas Mexicana en videoconferencia  por Internet que concluirá en julio, en el que se están capacitando 742  personas, de las cuales 581 son de nivel básico y 161 de nivel intermedio.  Agregó que respecto al Taller de Sensibilización en línea por Intranet se  tuvieron 761 inscritos de los cuales aprobaron 366. <br>
+               Finalmente mencionó que el  curso en línea &ldquo;Taller de Sensibilización para la atención de Personas con  Discapacidad por e-learning, se inscribieron 171 personas y concluyeron 81.  Asimismo destacó que la Coordinación Técnica de Seguridad y Resguardo de  Inmuebles emitió un oficio dirigido a   los Jefes de Departamento de Conservación y Servicios Generales y Jefes  de Oficina de Seguridad Delegacionales, para que se inscriban en dicho taller  que se llevará a cabo del  6 al 17 de  junio del año en curso.</p>
+             <p>Continuando con el tema el  Lic. Antonio Martínez Mendoza, Titular de la Coordinación de  Comunicación Interna  informó   de los trabajos realizados por la Coordinación a su cargo, destacando la  elaboración del  cartel de estireno para  Urgencias Obstétricas, la Cápsula informativa sobre Discapacidad por Deficiencia  Física, la publicación de los avisos al Taller en Línea de Sensibilización y la  implementación del Micrositio del Comité de Institucional sobre los Derechos de  las Personas con Discapacidad y en el Diseño editorial y producción digital del  documento &ldquo;Criterios de Proyecto de Arquitectura para la Accesibilidad de las  Personas con Discapacidad&rdquo; con base al archivo final abordado y aprobado por el  Grupo de Accesibilidad; además, mencionó que se editaría una versión impresa  con un número limitado de volúmenes.</p>
+             <p>La Lic. Miriam Uribe  Arizmendi, Titular de la División de Cultura Institucional de Igualdad de la Coordinación Técnica de Igualdad y Género y Coordinadora del Grupo de Trabajo de  Accesibilidad de este Comité  Institucional, informó  que se llevaron a cabo cinco reuniones ordinarias y cinco extraordinarias,  donde se generaron diez acuerdos, de los cuales se han atendido siete y tres  están en proceso. Asimismo y respecto de las actividades realizadas comentó que  la &ldquo;Actualización del Documento Normativo: Criterios del Proyecto de  Arquitectura para la Accesibilidad de las Personas con Discapacidad&rdquo;, tiene un  avance del 100%. </p>
+             <p>También señaló que la Dirección de Innovación y  Desarrollo Tecnológico, con fecha 15 de marzo del presente año, presentó el  inicio de la operación del sitio web accesible denominado &ldquo;IMSS Digital para  todos&rdquo;</p>
+             <p>Finalmente indicó que la Dirección de Administración cuenta con un Programa  Interno de Protección Civil para casos de siniestros, que contempla disposiciones  para incluir a las personas con discapacidad en las acciones preventivas y para  el uso de cédulas para el registro del personal y de visitantes en situación de  vulnerabilidad. </p>
+             <p> <strong>CRITERIOS DE ACCESIBILIDAD 2016. </strong><br>
+               El  Mtro. Francisco Josué Cortes Enríquez, Titular de la Coordinación Técnica de  Proyectos y Construcción de Inmuebles, mencionó que la actualización de los  Criterios de Proyecto de Arquitectura para la Accesibilidad de las Personas con  Discapacidad, busca generar la construcción de inmuebles accesibles que  garanticen la movilidad independiente y segura a los Derechohabientes del  Instituto, así como a la Población en General. Esto apegado a la observancia  del artículo 2º de la Ley del Seguro Social.</p>
+             <p>Agregó  que el IMSS ha sido precursor con sus Manuales Arquitectónicos para diseño en  instalaciones médicas a nivel México y Latinoamérica, que los criterios de  Accesibilidad para las Personas con Discapacidad del Seguro Social su primera  publicación fue en 2005, se actualizaron en 2009, 2011 y 2016.</p>
+             <p><strong>Programas  Gubernamentales. </strong> <br>
+               El C.P. Arturo Ornelas  comentó que el propósito de la Encuesta de Clima y Cultura Organizacional de la  Administración Pública Federal (ECCO), es medir la percepción que tienen las  personas que laboran en las instituciones públicas, sobre ciertos factores que  afectan positiva o negativamente el desempeño, la productividad, la calidad de  los servicios y la imagen de las instituciones públicas, para mejorarlos con  acciones, y contribuir así al mejor cumplimiento de las misión institucional.</p>
+             <p>Agregó que la Secretaría de  la Función Pública (SFP) es la normativa responsable de la elaboración y diseño  de la Encuesta, es la que define la metodología a seguir y  quién se encarga de aplicar la encuesta,  procesando los datos en su plataforma tecnológica y entregar los resultados a  cada una de las dependencias participantes y que la Coordinación de  Modernización Administrativa funge como Coordinadora de aplicación de la  Encuesta dentro del Instituto con sus correspondientes actividades que implica  la misma.</p>
+             <p>Asimismo mencionó, que el  reactivo 21 de la ECCO denominado &ldquo;En mi institución existen instalaciones para  personas con discapacidad&rdquo;, se han obtenido resultados favorables, ya que de  2013 a 2014 la calificación fue 75.61, de 2014 a 2015 fue 77.34 y de 2013 a  2015 se ubicó en 78.75 y añadió que derivado de reuniones de trabajo que se han  realizado con la División de Cultura Institucional y el Grupo de Legislación,  se va sugerir para el próximo año incluir en la ECCO la siguiente pregunta &ldquo;¿En  mi área se difunden los derechos de las personas con discapacidad?&rdquo;. </p>
+           <p>Por último, comentó  que con respecto al cierre del Ejercicio de Participación Ciudadana 2015 y a  las acciones que se llevan a cabo en el Comité Institucional sobre los Derechos  de las Personas con Discapacidad, el Instituto dio cumplimiento, bajo la  modalidad de Órgano Colegiado y la Secretaría de la Función Pública le otorgó  una calificación de 100 y que para el 2016 se pretende seguir trabajando con  este Comité para dar cumplimiento a las disposiciones emitidas por la  Secretaría.</p></td>
+        </tr>
+        <tr>
+          <td style="text-align:left">Acuerdos</td>
+           <td style="text-align:left"><p><strong>ACDO.19CIDPD 27  de mayo del&nbsp; 2016:</strong> <br>
+             A  propuesta de la Secretaría Técnica del Comité Institucional sobre los Derechos  de las Personas con Discapacidad y con el propósito de dar continuidad a las  acciones de invitar a los Delegados para que platiquen sus experiencias sobre  estos temas, sometió a consideración de los   integrantes del Comité, invitar para la próxima Reunión Plenaria al  Delegado de la DF Norte para que informe las acciones que ha realizado, por lo  que el Comité aprobó de manera económica que se realice la invitación a  la próxima sesión<strong>. (EN PROCESO DE CUMPLIMIENTO)</strong></p>
+             <p><strong>ACDO.20CIDPD 27  de mayo del&nbsp; 2016:</strong> <br>
+               El  Ing. Pablo Rugerio González, sugirió a los integrantes del Comité, invitar para  la próxima reunión plenaria al Delegado en el estado de Colima, para que  informe acerca de la Coordinación que lleva a cabo con la Red de Vinculación  Laboral para participar en la certificación a empresas incluyentes que menciona  en las acciones relevantes de su Plan de Trabajo Delegacional. <strong>(EN PROCESO  DE CUMPLIMIENTO)</strong></p>
+           <p>Al respecto, los  integrantes del Comité aprobaron de manera económica que se invite para la  próxima Reunión Plenaria al Delegado de Colima. </p></td>
+        </tr>
+          </tbody>
+          </table>      
+</div>
+</div>
+      </div>
+      </main></div></div></div>  </div>
+
+  
+  
+</article>
+  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+        
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></main> <!-- /#page, /#page-wrapper -->
+    
+<!-- REPLACE ANALYTICS TRACJ EVENTS -->
+<!--<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-47165435-1', 'imss.gob.mx');
+ ga('send', 'pageview');
+
+</script>
+-->
+<!-- END ANALYTICS -->
+  <script type="text/javascript">
+      var gaq; 
+      var _gaq = gaq || [];
+      _gaq.push(['_setAccount', 'UA-47165435-1']);
+      _gaq.push(['_setDomainName', 'imss.gob.mx']);
+      _gaq.push(['_setAllowLinker', true]);
+       _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
+                      + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+
+  </script>
+
+  <script src="https://framework-gb.cdn.gob.mx/assets/scripts/plugins.js"></script>
+  <script src="https://framework-gb.cdn.gob.mx/assets/scripts/vendor/modernizr.js"></script>
+  <script src="https://framework-gb.cdn.gob.mx/assets/scripts/vendor/pace.min.js"></script>
+  
+  <script>var $ = jQuery;</script>
+  <script src="https://framework-gb.cdn.gob.mx/assets/scripts/main.js"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"4b2cd8a967","applicationID":"131730225","transactionName":"MlEEZxFZDRVQUE0LCQsbJ1AXUQwIHkNYBQM6WQddAl8GFG5dVgYDOkIPVhRnEwdWVg==","queueTime":0,"applicationTime":232,"atts":"HhYHEVlDHhs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr"
+
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Ingresa tus datos para obtener un estimado de las calorías que tu cuerpo necesita para mantener un peso ideal" /><meta name="keywords" content="nutrición, salud, alimentación, actividad fisica, porciones, calorías, mujeres, hombres, adultos mayores" /><link rel="shortcut icon" href="http://www.imss.gob.mx/sites/all/statics/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="94656.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="../salud-en-linea/apps-sano/calculadora-calorias.html" />
+    <meta name="google-site-verification" content="brVPI8wDmcNRLWQWUSXd_3qafz9h8-vANQeVH3P-Kw8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cleartype" content="on" />
+    <meta name="google-site-verification" content="ycnNxAEkaJvDj3_M4pHxEqVW8MTe8EZsBk6OnRBP4dU" /> 
+    <link rel="shortcut icon" href="https://framework-gb.cdn.gob.mx/favicon.ico">
+    <title>Calculador de calorías</title>
+
+
+  <link type="text/css" rel="stylesheet" href="http://www.imss.gob.mx/sites/all/statics/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.imss.gob.mx/sites/all/statics/css/css_SQTJMKIip3Xa2On6LztwzgQUV8Xqv5eNwqHwel1J9DU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.imss.gob.mx/sites/all/statics/css/css_fMPx1t8A6k1C_1ml4n4ZtHmNljcaa6rj2F6uMi3xi7E.css" media="all" />
+<style type="text/css" media="all"><!--/*--><![CDATA[/*><!--*/
+.tb-megamenu.animate .mega > .mega-dropdown-menu,.tb-megamenu.animate.slide .mega > .mega-dropdown-menu > div{transition-delay:200ms;-webkit-transition-delay:200ms;-ms-transition-delay:200ms;-o-transition-delay:200ms;transition-duration:400ms;-webkit-transition-duration:400ms;-ms-transition-duration:400ms;-o-transition-duration:400ms;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="http://www.imss.gob.mx/sites/all/statics/css/css_44hxyFfeMDuHNPxibjiViC-KNXwfX379OTWb0i6EE48.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.imss.gob.mx/sites/all/statics/css/css_2THG1eGiBIizsWFeexsNe1iDifJ00QRS9uSd03rY9co.css" media="print" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.imss.gob.mx/sites/all/statics/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script type="text/javascript" src="http://www.imss.gob.mx/sites/all/statics/js/js_kqNnDwc9jEwcumkCqdSKFY5rBOQH1lwDUX_cqR2MWGU.js"></script>
+<script type="text/javascript" src="http://www.imss.gob.mx/sites/all/statics/js/js_-j4JKCwMba8IbaqRu7ThZkzU3lk2OyZO-Ume7EC-1n8.js"></script>
+<script type="text/javascript" src="http://www.imss.gob.mx/sites/all/statics/js/js_bO8MwQN0eVnUDb155oSCnta1BxySHz4AsvdOlmaN6GU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"responsive_bartik_imss","theme_token":"2qfBvE4Uf1jQdSKoa-z_dtG-RbcL7trcdwSc0mKZfOc","js":{"http:\/\/code.jquery.com\/jquery-1.8.2.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"public:\/\/languages\/es_ieBpAFJh3_K-DoRuUs86lWFCx2KRBsbgBRlBF6cPYKA.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-touch.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/collapsible-menu.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/ficha.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/directorio.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/tramites.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/faqAcordeon.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/array_indexOf.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/cargarVista.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/menuHome.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/jquery-migrate-1.2.1.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/jquery.tooltip.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/wai-aria-improvements.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/webform_pager\/css\/webform_pager.css":1,"sites\/all\/modules\/webform_pager\/css\/style-my-tooltips.css":1,"sites\/all\/modules\/workflow\/workflow_admin_ui\/workflow_admin_ui.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/libraries\/colorbox\/example1\/colorbox.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/tb_megamenu\/fonts\/font-awesome\/css\/font-awesome.css":1,"sites\/all\/modules\/tb_megamenu\/css\/bootstrap.css":1,"sites\/all\/modules\/tb_megamenu\/css\/base.css":1,"sites\/all\/modules\/tb_megamenu\/css\/default.css":1,"sites\/all\/modules\/tb_megamenu\/css\/compatibility.css":1,"sites\/all\/modules\/tb_megamenu\/css\/styles\/imss.css":1,"0":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/responsive.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/layout.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/style.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/colors.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/header.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/footer.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/news_slider.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/imss.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/tramites.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/comunicados.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/directorio.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/faqSalud.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/ficha.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/nivel2.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/contactos.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/normas.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/styleImssExterna.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/encuestas.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/print.css":1}},"colorbox":{"transition":"fade","speed":"350","opacity":"0.90","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"maxWidth":"98%","maxHeight":"98%","initialWidth":"","initialHeight":"","fixed":true,"scrolling":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"extlink":{"extTarget":"_blank","extClass":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":".no_external","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":"mailto"}});
+//--><!]]>
+</script>
+  <!--[if (gte IE 6)&(lte IE 8)]>
+    <script src="/sites/all/themes/responsive_bartik_imss/js/selectivizr-min.js"></script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+    <script src="/sites/all/themes/responsive_bartik_imss/js/html5-respond.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
+
+<!--<script type="text/javascript" id="User1st_Loader" src="https://fe.user1st.info/Loader/head"></script>-->
+<script type="text/javascript" id="User1st_Loader">
+	var _u1stSettings = {
+			analytics:
+			[
+				{"name":"create" , "trace": function(traceItem){ trace(traceItem); }}
+			],
+			tracing: 
+			{
+				gaAccount: 'UA-47165435-1'
+			}
+		};
+		
+		function trace(e){for(var s=function(e,s){return["_trackEvent","User1st",e,s]},a=function(e){var a=[],r="User1st.FE.";switch(e.name.toLowerCase()){case"mainmenu.open":a.push(s(r+"MainMenu.Open",""));break;case"mainmenu.close":a.push(s(r+"MainMenu.Close",""));break;case"sys.profileselected":a.push(s(r+"Sys.ProfileSelected",e.values.profileID));break;case"sys.featureschanged":for(var u=e.values.removedFeatures.split("|"),n=0;n<u.length;n++)a.push(s(r+"Sys.feature-TurnOff",u[n]));for(var t=e.values.selectedFreatures.split("|"),n=0;n<t.length;n++)a.push(s(r+"Sys.feature-TurnOn",t[n]));break;case"sys.userfeedback":keyValuePairs.push(r+"Sys.UserFeedback",e.values.type+" - "+e.values.content)}return a}(e),r=0;r<a.length;r++)_gaq.push(a[r])}
+
+		var script = "<script type='text/javascript' src='https://fecdn.user1st.info/loader/head' ";
+	 (!(/u1st-runSync=1/).test(document.cookie)) && (script += "async='true'");
+	 script += " ><\/script>";
+	 document.write(script);
+ </script>
+   
+
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-94656 node-type-page" >
+  <!--<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable"></a>
+  </div>-->
+    
+  <div class="region region-topheader">
+    <div id="block-block-19" class="block block-block">
+
+    <h2>no banner</h2>
+  
+  <div class="content">
+    <br>  </div>
+</div>
+  </div>
+<main class="page"><div id="page" class="container">
+
+
+  <header id="header" role="heading" class="without-secondary-menu"><div class="section clearfix">
+        
+    
+    
+          <div id="name-and-slogan" class="element-invisible">
+
+                              <div id="site-name" class="element-invisible">
+              <strong>
+                <a href="../index.html" title="Inicio" rel="home"><span>Sitio Web "Acercando el IMSS al Ciudadano"</span></a>
+              </strong>
+            </div>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+    
+      <div class="region region-header">
+    <div id="block-tb-megamenu-main-menu" class="block block-tb-megamenu">
+
+    
+  <div class="content">
+    
+
+
+<nav class="navbar navbar-inverse sub-navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces">
+        <span class="sr-only">Interruptor de Navegación</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html">IMSS</a>
+    </div>
+    <div class="collapse navbar-collapse" id="subenlaces">
+     <ul class="nav navbar-nav navbar-right">
+  <li>
+  <a href="../index.html" >
+        
+    Inicio          </a>
+  </li>
+
+<li>
+  <a href="../conoce-al-imss.html" >
+        
+    Conoce al IMSS          </a>
+  
+              <ul class="dropdown-menu" role="menu">
+  <li>
+  <a href="../conoce-al-imss.html" >
+        
+    Acerca del IMSS          </a>
+  </li>
+
+<li>
+  <a href="../prensa.html" >
+        
+    Sala de Prensa          </a>
+  </li>
+
+<li>
+  <a href="../galeria.html" >
+        
+    Galería          </a>
+  </li>
+
+<li>
+  <a href="http://datos.imss.gob.mx/" >
+        
+    Datos abiertos IMSS          </a>
+  </li>
+
+<li>
+  <a href="../tramites.html" >
+        
+    Trámites y servicios          </a>
+  
+              <ul class="dropdown-menu" role="menu">
+  <li>
+  <a href="../derechoH.html" >
+        
+    Derechohabientes          </a>
+  </li>
+
+<li>
+  <a href="../patrones.html" >
+        
+    Patrones o Empresas          </a>
+  </li>
+
+<li>
+  <a href="../proveedores.html" >
+        
+    Proveedores del IMSS          </a>
+  </li>
+
+<li>
+  <a href="../profesionales-salud.html" >
+        
+    Profesionales de la Salud          </a>
+  </li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+  <a href="../transparencia.html" >
+        
+    Transparencia          </a>
+  
+              <ul class="dropdown-menu" role="menu">
+  <li>
+  <a href="../transparencia.html" >
+        
+    IMSS Transparente          </a>
+  </li>
+
+<li>
+  <a href="../transparencia/normatividad-fp.html" >
+        
+    Normatividad          </a>
+  </li>
+
+<li>
+  <a href="../transparencia/comite-informacion-fp.html" >
+        
+    Acceso a la información          </a>
+  </li>
+
+<li>
+  <a href="../transparencia/proactiva-fp.html" >
+        
+    Transparencia Proactiva          </a>
+  </li>
+
+<li>
+  <a href="../transparencia/participacion-ciudadana.html" >
+        
+    Participación Ciudadana          </a>
+  </li>
+
+<li>
+  <a href="../transparencia/indicadores-estudios.html" >
+        
+    Indicadores          </a>
+  </li>
+
+<li>
+  <a href="../transparencia/recomendaciones-fp.html" >
+        
+    Recomendaciones y Resoluciones por Disposición          </a>
+  </li>
+
+<li>
+  <a href="http://www.imss.gob.mx/sites/all/statics/pdf/transparencia/FP-EstudiosOpiniones.pdf" >
+        
+    Estudios financiados          </a>
+  </li>
+
+<li>
+  <a href="../transparencia/rendicion-cuentas-fp.html" >
+        
+    Programas e informes          </a>
+  </li>
+
+<li>
+  <a href="../transparencia/normatividad-fp.html" >
+        
+    Normatividad en transparencia          </a>
+  </li>
+</ul>
+</li>
+
+<li>
+  <a href="../directorio.html" >
+        
+    Directorio          </a>
+  
+              <ul class="dropdown-menu" role="menu">
+  <li>
+  <a href="../directorio.html" >
+        
+    Directorio de instalaciones          </a>
+  </li>
+
+<li>
+  <a href="http://portaltransparencia.gob.mx/pot/directorio/begin.do?method=begin&amp;_idDependencia=641" >
+        
+    Directorio de funcionarios          </a>
+  </li>
+</ul>
+</li>
+
+<li>
+  <a href="../contacto.html" >
+        
+    Contacto          </a>
+  </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+
+<!--<div class="warning-nav">
+	    <p>Este contenido será modificado temporalmente en atención a las disposiciones legales y normativas en materia electoral, con motivo del inicio de periodo de campaña</p>
+	 </div>-->
+  </div>
+</div>
+  </div>
+
+      </div></header> <!-- /.section, /#header -->
+
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main"  class="clearfix">
+
+        <div id="breadcrumb">  <div class="region region-breadcrumb">
+    <div id="block-easy-breadcrumb-easy-breadcrumb" class="block block-easy-breadcrumb">
+
+    
+  <div class="content">
+    <ol class="breadcrumb"><li><a href="../index.html"><span class="icon icon-home"></span><span class="sr-only"></span></a></li><li></li> <li><a href="../index.html" class="easy-breadcrumb_segment easy-breadcrumb_segment-front">Inicio</a> <li> <li><a href="../salud-en-linea.html" class="easy-breadcrumb_segment easy-breadcrumb_segment-1">Salud En Linea</a> <li> <li><a href="../salud-en-linea/apps-sano.html" class="easy-breadcrumb_segment easy-breadcrumb_segment-2">APPS para estar sano</a> <li> <li><a href="../salud-en-linea/apps-sano/calculadora-calorias.html" class="easy-breadcrumb_segment easy-breadcrumb_segment-title">Calculador de Calorías</a> <li></ol>  </div>
+</div>
+<div id="block-block-10" class="block block-block">
+
+    
+  <div class="content">
+    <!-- AddThis Smart Layers BEGIN -->
+<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+<!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=imss"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'transparent',
+    'share' : {
+      'position' : 'left',
+      'numPreferredServices' : 5
+    }   
+  });
+</script>-->
+<!-- AddThis Smart Layers END -->  </div>
+</div>
+  </div>
+</div>    
+    <div id="content" class="column" role="main"><div class="section">
+            <a id="main-content"></a>
+                    <h2 id="page-title">
+          Calculador de Calorías        </h2>
+        <hr class="red">
+                          <div class="tabs">
+                  </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <article id="node-94656" class="node node-page node-full clearfix" about="/salud-en-linea/apps-sano/calculadora-calorias" typeof="foaf:Document" role="article">
+
+      <span property="dc:title" content="Calculador de Calorías" class="rdf-meta element-hidden"></span>
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div class="dcolumnas">		
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script>
+		$( document ).ready(function() {
+
+			
+
+
+			$("#sendData").click(function(){
+				var edad=$('#sedad').val();
+				var peso=$("#ipeso").val();
+				var altura=$("#ialtura").val();
+				var sexo=$("#ssexo").val();
+				var action=$('input[name=actividad]:checked').val();
+				var tmb=getTMB(edad,peso,sexo,altura);
+				var tmba=getTMBbyAction(tmb,action);
+				
+				console.log(action);
+				$("#tmb").html(number_format(tmba)+' kcal.');
+			});
+			function getTMB(edad, peso, sexo, altura)
+			{
+				var tmb=null;
+				if(sexo=='0')
+					tmb=(10*peso)+(6.25*altura)-(5*edad)+5;
+				else
+					tmb=(10*peso)+(6.25*altura)-(5*edad)-161;
+				/*
+				---Hombres
+				TMB = (10 x peso en kg) + (6,25 × altura en cm) - (5 × edad en años) + 5
+
+
+				---Mujeres
+				TMB = (10 x peso en kg) + (6,25 × altura en cm) - (5 × edad en años) - 161*/
+				return tmb;
+			}
+			function getTMBbyAction(tmb, action)
+			{
+				var tmba=null;
+				/*	Poco o ningún ejercicio
+					Calorías diarias necesarias = TMB x 1,2
+				*/
+				if(action==0)
+					tmba=tmb*1.2;
+				/*
+					Ejercicio ligero (1-3 días a la semana)
+					Calorías diarias necesarias = TMB x 1,375
+				*/
+				if(action==1)
+					tmba=tmb*1.375;
+				/*
+					Ejercicio moderado (3-5 días a la semana)
+					Calorías diarias necesarias = TMB x 1,55
+				*/
+				if(action==2)
+					tmba=tmb*1.55;
+
+				/*
+					Ejercicio fuerte (6-7 días a la semana)
+					Calorías diarias necesarias = TMB x 1,725
+				*/
+				if(action==3)
+					tmba=tmb*1.725;
+				/*
+					Ejercicio muy fuerte (dos veces al día, entrenamientos muy duros)
+					Calorías diarias necesarias = TMB x 1,9
+
+				*/
+				if(action==4)
+					tmba=tmb*1.9;
+				return tmba;
+			}
+			function number_format(n) {
+    			return n.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, "$1,");
+			}
+
+		});
+		</script>
+
+		<style>.dcolumnas label{
+			/*margin-right: 10px;*/
+			margin-top:3px;
+			background:#4ED6B3;
+			float:left;
+			text-align: center;
+			width:80px;
+			height:24px;
+			padding-top:3px;
+		}
+		.app div{
+			width:100%;
+			float:left;
+			text-align: left;
+		}
+		.dcolumnas table tbody td img {
+			vertical-align: middle;
+		}
+		/*
+			**** START NAVIGATION***
+			*/
+			#salud-menu{
+	float:left;
+
+	height:450px;
+	}
+	.menuapps {
+    color: #444242;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+	}
+.menuapps li{
+border:1px dashed #E2E4E7;
+}
+.menuapps {
+    color: #444242;
+    line-height: 100%;
+    margin: 3px 0 3px -15px;
+    padding: 0 0 0 35px;
+	
+}.engrane a, .buencomer a, .imc a, .vacaciones a, .yosi a, .tmb a, .heartriskchl a{
+  
+    color: #444242;
+    display: block;
+    height: 30px;
+    padding: 10px 20px 0 0px;
+    text-decoration: none;
+	padding-left:15px;
+    
+	margin-left:40px;
+}
+.engrane a:hover, .buencomer a:hover, .imc a:hover, .vacaciones a:hover, .yosi a:hover, .tmb a:hover, .heartriskchl a:hover{
+    background: #E2E4E7;
+    color: #444242;
+    display: block;
+    height: 30px;
+    padding: 10px 20px 0 0px;
+	padding-left:15px;
+	
+    
+}
+#active {
+ background: #E2E4E7;
+    color: #444242;
+    display: block;
+    height: 30px;
+    padding: 10px 20px 0 0px;
+	padding-left:15px;
+   
+}
+
+.buencomer{    background: url("../sites/all/statics/buencomer/icono_buencomer.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);}
+.imc{    background: url("../sites/all/statics/buencomer/icono_imc.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);}
+.vacaciones{    background: url("../sites/all/statics/buencomer/icono_vacaciones.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);}
+.yosi{    background: url("../sites/all/statics/buencomer/icono_vacaciones.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);}
+.tmb{background: url("../sites/all/statics/salud/calculadorcalorias/icono_kcal.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);}
+.heartriskchl{background: url("../sites/all/statics/salud/riesgo_cardiaco/icono1.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);}
+
+	#salud-app{
+	float:left;
+	width:72%;
+	margin-left:10px;
+	}
+
+	
+#content-app{
+/*border:solid 4px #89AF8C;
+border-radius:20px;*/
+width:100%;
+height:500px;
+padding:20px;
+
+}
+.title-app{
+color:#4D7A6B;
+font-family:Soberana Titular;
+font-size:18px;
+padding-left:10px;
+}
+
+#checks{
+float:left;
+width:50%
+}
+#checkimg{
+float:left;
+width:48%;
+text-align:center;
+}
+.salud_img {
+   float: left;
+   height: 100px;
+   margin-bottom: 15px;
+   margin-left: -15px;
+   margin-right: 15px;
+   position: relative;
+  
+}
+
+.salud_textoimg {
+   font-size: 12px;
+  position: absolute;
+   text-align: center;
+   margin-top:5px;
+  
+      
+}
+.salud_textoimg a {
+   color: #FFFFFF;
+   text-decoration: none;
+}
+.salud_textoimg a:hover {
+   color: #FFFFFF;
+   text-decoration: underline;
+}
+/*
+************END NAVIGATION********************
+
+*/
+
+/*
+*INPUTS STYLE
+		*/
+.dcolumnas  select {
+	border:none;
+	font-family: Verdana;
+	height:27px;
+	padding:5px;
+	margin-top: 3px;
+	width:220px;
+}
+.dcolumnas input[type="text"]{
+	border:none;
+	font-family:Verdana;
+	height:18px;
+	width:212px;
+	margin-top: 3px;
+	background:#EFEFF0;
+}
+
+.dcolumnas input[type="radio"]{
+	border:none;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+#tmb{
+
+
+	width:100%;
+	height:10px;
+	padding:10px;
+	background:#4ED6B3;
+	font-style:bold;
+	text-align: center;
+	
+}
+#tmbdown{
+	width:100%;
+	height:10px;
+	padding:10px;
+	background: #83e1c9; 
+	text-align: center;
+}
+		</style>
+
+		<div class="dcolumnas" style="font-size:12px; font-family:Verdana;">
+			<div style="float:left; width:35%">
+				<div id="salud-menu">
+					<ul class="menuapps">
+						<li class="vacaciones"><a  title="" href="../salud-en-linea/tipsvacaciones.html">Tips para vacaciones</a></li>
+						<li class="imc"><a title="Calcula tu IMC" href="../salud-en-linea/calculaimc.html">Calcula tu IMC</a></li>
+						<li class="buencomer"><a href="../salud-en-linea/platobiencomer.html" title="Plato del bien comer">Plato del bien comer</a></li>
+						<li class="yosi"><a title="Yo sí me cuido" href="../salud-en-linea/yosimecuido.html">#YoSíMeCuido</a></li>
+						<li class="tmb"><a id="active" title="Calculador de calorías" href="../salud-en-linea/calculador-calorias.html">Calculador de calorías</a></li>
+					        <li class="heartriskchl"><a  title="Riesgo Cardiovascular - Colesterol" href="../salud-en-linea/apps-sano/riesgo-cardiovascular-colesterol.html">Riesgo Cardiovascular - Colesterol </a></li>
+						<!--<li class="heartriskimc"><a  title="Riesgo Cardiovascular IMC" href="/salud-en-linea/">Riesgo Cardiovascular IMC </a></li>-->
+					</ul>
+				</div>
+			</div>
+			<div style="float:left; width:65%;">
+			<div class="app" style="width:60%;float:left;">
+				<div>
+					<p>Ingresa tus datos para obtener un estimado de las calorías que tu cuerpo necesita para mantener un peso ideal:</p></div>
+			<div>
+				<label>Edad</label>
+				<select id="sedad">
+					<option value="">Selecciona tu edad</option>
+											<option value="5">5 años</option>											<option value="6">6 años</option>											<option value="7">7 años</option>											<option value="8">8 años</option>											<option value="9">9 años</option>											<option value="10">10 años</option>											<option value="11">11 años</option>											<option value="12">12 años</option>											<option value="13">13 años</option>											<option value="14">14 años</option>											<option value="15">15 años</option>											<option value="16">16 años</option>											<option value="17">17 años</option>											<option value="18">18 años</option>											<option value="19">19 años</option>											<option value="20">20 años</option>											<option value="21">21 años</option>											<option value="22">22 años</option>											<option value="23">23 años</option>											<option value="24">24 años</option>											<option value="25">25 años</option>											<option value="26">26 años</option>											<option value="27">27 años</option>											<option value="28">28 años</option>											<option value="29">29 años</option>											<option value="30">30 años</option>											<option value="31">31 años</option>											<option value="32">32 años</option>											<option value="33">33 años</option>											<option value="34">34 años</option>											<option value="35">35 años</option>											<option value="36">36 años</option>											<option value="37">37 años</option>											<option value="38">38 años</option>											<option value="39">39 años</option>											<option value="40">40 años</option>											<option value="41">41 años</option>											<option value="42">42 años</option>											<option value="43">43 años</option>											<option value="44">44 años</option>											<option value="45">45 años</option>											<option value="46">46 años</option>											<option value="47">47 años</option>											<option value="48">48 años</option>											<option value="49">49 años</option>											<option value="50">50 años</option>											<option value="51">51 años</option>											<option value="52">52 años</option>											<option value="53">53 años</option>											<option value="54">54 años</option>											<option value="55">55 años</option>											<option value="56">56 años</option>											<option value="57">57 años</option>											<option value="58">58 años</option>											<option value="59">59 años</option>											<option value="60">60 años</option>											<option value="61">61 años</option>											<option value="62">62 años</option>											<option value="63">63 años</option>											<option value="64">64 años</option>											<option value="65">65 años</option>											<option value="66">66 años</option>											<option value="67">67 años</option>											<option value="68">68 años</option>											<option value="69">69 años</option>											<option value="70">70 años</option>											<option value="71">71 años</option>											<option value="72">72 años</option>											<option value="73">73 años</option>											<option value="74">74 años</option>											<option value="75">75 años</option>											<option value="76">76 años</option>											<option value="77">77 años</option>											<option value="78">78 años</option>											<option value="79">79 años</option>											<option value="80">80 años</option>											<option value="81">81 años</option>											<option value="82">82 años</option>											<option value="83">83 años</option>											<option value="84">84 años</option>											<option value="85">85 años</option>											<option value="86">86 años</option>											<option value="87">87 años</option>											<option value="88">88 años</option>											<option value="89">89 años</option>											<option value="90">90 años</option>											<option value="91">91 años</option>											<option value="92">92 años</option>											<option value="93">93 años</option>											<option value="94">94 años</option>											<option value="95">95 años</option>											<option value="96">96 años</option>											<option value="97">97 años</option>											<option value="98">98 años</option>											<option value="99">99 años</option>											<option value="100">100 años</option>					
+				</select>
+			</div>
+			<div>
+				<label>Altura</label>
+				<input type="text" id="ialtura"/> cm
+			</div>
+			<div>
+				<label>Sexo</label>
+				<select id="ssexo">
+					<option value="1">Femenino</option>
+					<option value="0">Masculino</option>
+				</select>
+			</div>
+			<div>
+				<label>Peso</label>
+				<input type="text" id="ipeso"/> kg
+			</div>
+
+			
+			
+
+
+		</div>
+		<div style="width:40%;float:left;text-align:center;">
+			<img src="../sites/all/statics/salud/calculadorcalorias/foto_comida.png" alt="Calculador de calorias"/>
+		</div>
+
+		<div class="clear"></div>
+		<div style="width:100%;margin:auto;">
+			<div style="width:100%">
+				<p>Nivel de Actividad:</p>
+			</div>
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th>Ejemplo</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="text-align:left;"><input type="radio" name="actividad" value="0"/>Poco o ningún ejercicio</td>
+							<td><span>Sentado</span><img src="../sites/all/statics/salud/calculadorcalorias/sentado.png" alt=""/></td>
+						</tr>
+						<tr class="green">
+							<td style="text-align:left;"><input type="radio" name="actividad" value="1"/>Ejercicio ligero (1-3 días a la semana)</td>
+							<td>Jardineria <img src="../sites/all/statics/salud/calculadorcalorias/jardinero.png" alt=""/></td>
+						</tr>
+						<tr>
+							<td style="text-align:left;"><input type="radio" name="actividad" value="2"/>Ejercicio moderado (3-5 días a la semana)</td>
+							<td>Trotar <img src="../sites/all/statics/salud/calculadorcalorias/trotar.png" alt=""/></td>
+						</tr>
+						<tr class="green">
+							<td style="text-align:left;"><input type="radio" name="actividad" value="3"/>Ejercicio fuerte (6-7 días a la semana)</td>
+							<td>Correr <img src="../sites/all/statics/salud/calculadorcalorias/trotar.png" alt=""/></td>
+						</tr>
+						<tr>
+							<td style="text-align:left;"><input type="radio" name="actividad" value="4"/>Ejercicio muy fuerte (dos veces al día, entrenamientos muy duros)</td>
+							<td>1 hora de natación <img src="../sites/all/statics/salud/calculadorcalorias/nadar.png" alt=""/></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="clear"></div>
+			<div style="width:100%;margin:auto;">
+
+			<div style="float:right;width:25%;margin-left:10px;height:auto;text-align:center;margin-right:20px;">
+				<div id="tmb"></div>
+				<div id="tmbdown">por día</div>
+			</div>
+			
+				<div  style="width:40%;float:right;padding:10px;font-size:14px;"class="boton_ingresos"><a href="#tmb" id="sendData">Calcula las calorias que necesitas <span>➤</span></a></div>
+			</div>
+			<div class="clear"></div>
+
+
+
+			<hr style="width:100%;border:1px dashed gray;margin-top:40px; margin-bottom:40px;"></hr>
+<div class="dcolumnas">
+
+	<div style="float:left;width:39%;margin-right:10px;">
+		<div class="pane-title">Ejemplo de una comida</div>
+		<table>
+			<tbody>
+				<tr>
+					<td style="border:none;" colspan="2"><strong>Huevos a la mexicana</strong></td>
+				</tr>
+				<tr>
+					<td style="border-top:none;border-right:none">2 huevos</td>
+					<td style="text-align:right; border-top:none;border-left:none">140 kcal</td>
+				</tr>
+				<tr>
+					<td style="border-top:none;border-right:none">1/2 jitomate</td>
+					<td style="text-align:right;border-top:none;border-left:none">23 kcal</td>
+				</tr>
+				<tr>
+					<td style="border-top:none;border-right:none">1/4 cebolla</td>
+					<td style="text-align:right;border-top:none;border-left:none">12 kcal</td>
+				</tr>
+				<tr>
+					<td style="border-top:none;border-right:none">Sal</td>
+					<td style="border-top:none;border-left:none"></td>
+				</tr>
+				<tr>
+					<td style="border-top:none;border-right:none">Pimienta</td>
+					<td style="border-top:none;border-left:none"></td>
+				</tr>
+				<tr>
+					<td style="text-align:right; border:none"><strong>Total:</strong></td>
+					<td style="text-align:right;border:none"><strong>179 kcal</strong></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div style="float:left;width:59%;">  
+		<div class="pane-title">Ejemplo tabla de alimentos</div>
+		<div style="height:300px;overflow:auto;width:100%">
+		<table>
+			<tbody>
+				<tr class="green">
+					<td colspan="3">Cereales y Tubérculos</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Arroz blanco cocido</td>
+					<td>½  taza</td>
+					<td>70 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Tortilla de maíz</td>
+					<td>1 pieza</td>
+					<td>70 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Bolillo sin migajón</td>
+					<td>½  pieza</td>
+					<td>70 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Pan de caja (Blanco o integral)</td>
+					<td>½ pieza</td>
+					<td>70 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Pasta hervida</td>
+					<td>½  pieza</td>
+					<td>70 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Cereal con azúcar</td>
+					<td>1/3  de taza</td>
+					<td>70 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Papa (hervida o al horno)</td>
+					<td>½ pieza</td>
+					<td>70 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Galleta maría</td>
+					<td>5 piezas</td>
+					<td>70 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Pan dulce (cuernito, concha)</td>
+					<td>1 pieza</td>
+					<td>115 kcal</td>
+				</tr>
+				<tr class="green">
+					<td colspan="3">Verduras</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Jitomate bola</td>
+					<td>1 pieza</td>
+					<td>25 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Cebolla blanca cruda</td>
+					<td>1/2 taza</td>
+					<td>25 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Chile de árbol</td>
+					<td>4 piezas</td>
+					<td>25 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Zanahoria cruda</td>
+					<td>1/2 taza</td>
+					<td>25 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Calabacita cocida</td>
+					<td>1/2 taza</td>
+					<td>25 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Chayote cocido</td>
+					<td>1/2 pieza</td>
+					<td>25 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Espinaca cruda</td>
+					<td>2 tazas</td>
+					<td>25 kcal</td>
+				</tr>
+				<tr class="green">
+					<td colspan="3">Alimentos de origen animal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Bistec de res</td>
+					<td>30 gramos</td>
+					<td>40 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Pechuga de pollo azada</td>
+					<td>30 gramos</td>
+					<td>40 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Blanco de nilo (pescado)</td>
+					<td>40 gramos</td>
+					<td>40 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Atún en agua</td>
+					<td>40 gramos</td>
+					<td>40 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Pechuga de pavo</td>
+					<td>2 rebanadas</td>
+					<td>40 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Falda o pierna de cerdo</td>
+					<td>40 gramos</td>
+					<td>55 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Queso fresco</td>
+					<td>40 gramos</td>
+					<td>55 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Queso panela</td>
+					<td>40 gramos</td>
+					<td>55 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Queso Oaxaca</td>
+					<td>30 gramos</td>
+					<td>55 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Jamón de pavo y/o pierna</td>
+					<td>2 rebanadas</td>
+					<td>55 kcal</td>
+				</tr>
+				<tr>
+				<tr class="green">
+					<td colspan="3">Leche y derivados</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Leche entera</td>
+					<td>1 taza</td>
+					<td>150 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Leche descremada</td>
+					<td>1 taza</td>
+					<td>95 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Leche evaporada</td>
+					<td>1/4 de taza</td>
+					<td>150 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Yogurt natural</td>
+					<td>1 taza</td>
+					<td>150 kcal</td>
+				</tr>
+				<tr class="green">
+					<td colspan="3">Leguminosas</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Frijol</td>
+					<td>1/2 taza</td>
+					<td>120 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Garbanzo</td>
+					<td>1/2 taza</td>
+					<td>120 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Habas</td>
+					<td>1/2 taza</td>
+					<td>120 kcal</td>
+				</tr>
+				<tr>
+					<td style="text-align:left;">Lentejas</td>
+					<td>1/2 taza</td>
+					<td>120 kcal</td>
+				</tr>
+
+			</tbody>
+		</table>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div style="margin-top:40px;">
+		<p><a href="../sites/all/statics/salud/guia-alimentos.pdf" alt="Guía de alimentos" target="_blank"><img src="../sites/all/statics/salud/calculadorcalorias/icono_descarga.png" alt="Descarga" style="vertical-align:middle"/>Descargue la Guía de alimentos</a>.</p>
+				<div style="width:100%; border: 1px solid #d4e4da;padding:10px;">
+			Si usted se encuentra en período de embarazo o lactancia, es atleta de alto rendimiento o padece una enfermedad metabólica (diabetes, insuficiencia renal u obesidad mórbida), el calculador de calorías puede subestimar o sobrestimar sus necesidad calóricas.
+		</div>
+		<p>* Consulta a tu médico. Esta información es una guía que pretende ser un punto de referencia, las acciones que se tomen con base en esta información son responsabilidad de quien las efectue.</p>
+	</div>
+</div>
+ 
+
+
+		</div>
+		</div>
+
+		<div class="clear"></div>
+</div>
+
+
+</div></div></div>  </div>
+
+  
+  
+</article>
+  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+        
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></main> <!-- /#page, /#page-wrapper -->
+    
+<!-- REPLACE ANALYTICS TRACJ EVENTS -->
+<!--<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-47165435-1', 'imss.gob.mx');
+ ga('send', 'pageview');
+
+</script>
+-->
+<!-- END ANALYTICS -->
+  <script type="text/javascript">
+      var gaq; 
+      var _gaq = gaq || [];
+      _gaq.push(['_setAccount', 'UA-47165435-1']);
+      _gaq.push(['_setDomainName', 'imss.gob.mx']);
+      _gaq.push(['_setAllowLinker', true]);
+       _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
+                      + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+
+  </script>
+
+  <script src="https://framework-gb.cdn.gob.mx/assets/scripts/plugins.js"></script>
+  <script src="https://framework-gb.cdn.gob.mx/assets/scripts/vendor/modernizr.js"></script>
+  <script src="https://framework-gb.cdn.gob.mx/assets/scripts/vendor/pace.min.js"></script>
+  
+  <script>var $ = jQuery;</script>
+  <script src="https://framework-gb.cdn.gob.mx/assets/scripts/main.js"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"4b2cd8a967","applicationID":"131730225","transactionName":"MlEEZxFZDRVQUE0LCQsbJ1AXUQwIHkNYBQM6WQddAl8GFG5dVgYDOkIPVhRnEwdWVg==","queueTime":0,"applicationTime":243,"atts":"HhYHEVlDHhs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

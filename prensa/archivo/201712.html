@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr"
+
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="noticias, prensa, comunicados, giras, eventos Imss" /><meta name="description" content="Noticias y comunicados del Instituto Mexicano del Seguro Social" /><link rel="shortcut icon" href="http://www.imss.gob.mx/sites/all/statics/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+    <meta name="google-site-verification" content="brVPI8wDmcNRLWQWUSXd_3qafz9h8-vANQeVH3P-Kw8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cleartype" content="on" />
+    <meta name="google-site-verification" content="ycnNxAEkaJvDj3_M4pHxEqVW8MTe8EZsBk6OnRBP4dU" /> 
+    <link rel="shortcut icon" href="https://framework-gb.cdn.gob.mx/favicon.ico">
+    <title>Sala de Prensa IMSS</title>
+
+
+  <link type="text/css" rel="stylesheet" href="http://www.imss.gob.mx/sites/all/statics/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.imss.gob.mx/sites/all/statics/css/css_SQTJMKIip3Xa2On6LztwzgQUV8Xqv5eNwqHwel1J9DU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.imss.gob.mx/sites/all/statics/css/css_fMPx1t8A6k1C_1ml4n4ZtHmNljcaa6rj2F6uMi3xi7E.css" media="all" />
+<style type="text/css" media="all"><!--/*--><![CDATA[/*><!--*/
+.tb-megamenu.animate .mega > .mega-dropdown-menu,.tb-megamenu.animate.slide .mega > .mega-dropdown-menu > div{transition-delay:200ms;-webkit-transition-delay:200ms;-ms-transition-delay:200ms;-o-transition-delay:200ms;transition-duration:400ms;-webkit-transition-duration:400ms;-ms-transition-duration:400ms;-o-transition-duration:400ms;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="http://www.imss.gob.mx/sites/all/statics/css/css_44hxyFfeMDuHNPxibjiViC-KNXwfX379OTWb0i6EE48.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://www.imss.gob.mx/sites/all/statics/css/css_2THG1eGiBIizsWFeexsNe1iDifJ00QRS9uSd03rY9co.css" media="print" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.8/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://www.imss.gob.mx/sites/all/statics/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script type="text/javascript" src="http://www.imss.gob.mx/sites/all/statics/js/js_kqNnDwc9jEwcumkCqdSKFY5rBOQH1lwDUX_cqR2MWGU.js"></script>
+<script type="text/javascript" src="http://www.imss.gob.mx/sites/all/statics/js/js_-j4JKCwMba8IbaqRu7ThZkzU3lk2OyZO-Ume7EC-1n8.js"></script>
+<script type="text/javascript" src="http://www.imss.gob.mx/sites/all/statics/js/js_bO8MwQN0eVnUDb155oSCnta1BxySHz4AsvdOlmaN6GU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"responsive_bartik_imss","theme_token":"2qfBvE4Uf1jQdSKoa-z_dtG-RbcL7trcdwSc0mKZfOc","js":{"http:\/\/code.jquery.com\/jquery-1.8.2.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"public:\/\/languages\/es_ieBpAFJh3_K-DoRuUs86lWFCx2KRBsbgBRlBF6cPYKA.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/panels\/js\/panels.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-frontend.js":1,"sites\/all\/modules\/tb_megamenu\/js\/tb-megamenu-touch.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/collapsible-menu.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/ficha.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/directorio.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/tramites.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/faqAcordeon.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/array_indexOf.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/cargarVista.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/menuHome.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/jquery-migrate-1.2.1.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/jquery.tooltip.js":1,"sites\/all\/themes\/responsive_bartik_imss\/js\/wai-aria-improvements.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/webform_pager\/css\/webform_pager.css":1,"sites\/all\/modules\/webform_pager\/css\/style-my-tooltips.css":1,"sites\/all\/modules\/workflow\/workflow_admin_ui\/workflow_admin_ui.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/libraries\/colorbox\/example1\/colorbox.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/tb_megamenu\/fonts\/font-awesome\/css\/font-awesome.css":1,"sites\/all\/modules\/tb_megamenu\/css\/bootstrap.css":1,"sites\/all\/modules\/tb_megamenu\/css\/base.css":1,"sites\/all\/modules\/tb_megamenu\/css\/default.css":1,"sites\/all\/modules\/tb_megamenu\/css\/compatibility.css":1,"sites\/all\/modules\/tb_megamenu\/css\/styles\/imss.css":1,"0":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/responsive.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/layout.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/style.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/colors.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/header.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/footer.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/news_slider.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/imss.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/tramites.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/comunicados.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/directorio.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/faqSalud.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/ficha.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/nivel2.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/contactos.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/normas.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/styleImssExterna.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/encuestas.css":1,"sites\/all\/themes\/responsive_bartik_imss\/css\/print.css":1}},"colorbox":{"transition":"fade","speed":"350","opacity":"0.90","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"maxWidth":"98%","maxHeight":"98%","initialWidth":"","initialHeight":"","fixed":true,"scrolling":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"extlink":{"extTarget":"_blank","extClass":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":".no_external","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":"mailto"}});
+//--><!]]>
+</script>
+  <!--[if (gte IE 6)&(lte IE 8)]>
+    <script src="/sites/all/themes/responsive_bartik_imss/js/selectivizr-min.js"></script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+    <script src="/sites/all/themes/responsive_bartik_imss/js/html5-respond.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
+
+<!--<script type="text/javascript" id="User1st_Loader" src="https://fe.user1st.info/Loader/head"></script>-->
+<script type="text/javascript" id="User1st_Loader">
+	var _u1stSettings = {
+			analytics:
+			[
+				{"name":"create" , "trace": function(traceItem){ trace(traceItem); }}
+			],
+			tracing: 
+			{
+				gaAccount: 'UA-47165435-1'
+			}
+		};
+		
+		function trace(e){for(var s=function(e,s){return["_trackEvent","User1st",e,s]},a=function(e){var a=[],r="User1st.FE.";switch(e.name.toLowerCase()){case"mainmenu.open":a.push(s(r+"MainMenu.Open",""));break;case"mainmenu.close":a.push(s(r+"MainMenu.Close",""));break;case"sys.profileselected":a.push(s(r+"Sys.ProfileSelected",e.values.profileID));break;case"sys.featureschanged":for(var u=e.values.removedFeatures.split("|"),n=0;n<u.length;n++)a.push(s(r+"Sys.feature-TurnOff",u[n]));for(var t=e.values.selectedFreatures.split("|"),n=0;n<t.length;n++)a.push(s(r+"Sys.feature-TurnOn",t[n]));break;case"sys.userfeedback":keyValuePairs.push(r+"Sys.UserFeedback",e.values.type+" - "+e.values.content)}return a}(e),r=0;r<a.length;r++)_gaq.push(a[r])}
+
+		var script = "<script type='text/javascript' src='https://fecdn.user1st.info/loader/head' ";
+	 (!(/u1st-runSync=1/).test(document.cookie)) && (script += "async='true'");
+	 script += " ><\/script>";
+	 document.write(script);
+ </script>
+   
+
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-prensa page-prensa-archivo page-prensa-archivo- page-prensa-archivo-201712" >
+  <!--<div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable"></a>
+  </div>-->
+    
+  <div class="region region-topheader">
+    <div id="block-block-19" class="block block-block">
+
+    <h2>no banner</h2>
+  
+  <div class="content">
+    <br>  </div>
+</div>
+  </div>
+<main class="page"><div id="page" class="container">
+
+
+  <header id="header" role="heading" class="without-secondary-menu"><div class="section clearfix">
+        
+    
+    
+          <div id="name-and-slogan" class="element-invisible">
+
+                              <div id="site-name" class="element-invisible">
+              <strong>
+                <a href="../../index.html" title="Inicio" rel="home"><span>Sitio Web "Acercando el IMSS al Ciudadano"</span></a>
+              </strong>
+            </div>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+    
+      <div class="region region-header">
+    <div id="block-tb-megamenu-main-menu" class="block block-tb-megamenu">
+
+    
+  <div class="content">
+    
+
+
+<nav class="navbar navbar-inverse sub-navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces">
+        <span class="sr-only">Interruptor de Navegación</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../../index.html">IMSS</a>
+    </div>
+    <div class="collapse navbar-collapse" id="subenlaces">
+     <ul class="nav navbar-nav navbar-right">
+  <li>
+  <a href="../../index.html" >
+        
+    Inicio          </a>
+  </li>
+
+<li>
+  <a href="../../conoce-al-imss.html" >
+        
+    Conoce al IMSS          </a>
+  
+              <ul class="dropdown-menu" role="menu">
+  <li>
+  <a href="../../conoce-al-imss.html" >
+        
+    Acerca del IMSS          </a>
+  </li>
+
+<li>
+  <a href="../../prensa.html" >
+        
+    Sala de Prensa          </a>
+  </li>
+
+<li>
+  <a href="../../galeria.html" >
+        
+    Galería          </a>
+  </li>
+
+<li>
+  <a href="http://datos.imss.gob.mx/" >
+        
+    Datos abiertos IMSS          </a>
+  </li>
+
+<li>
+  <a href="../../tramites.html" >
+        
+    Trámites y servicios          </a>
+  
+              <ul class="dropdown-menu" role="menu">
+  <li>
+  <a href="../../derechoH.html" >
+        
+    Derechohabientes          </a>
+  </li>
+
+<li>
+  <a href="../../patrones.html" >
+        
+    Patrones o Empresas          </a>
+  </li>
+
+<li>
+  <a href="../../proveedores.html" >
+        
+    Proveedores del IMSS          </a>
+  </li>
+
+<li>
+  <a href="../../profesionales-salud.html" >
+        
+    Profesionales de la Salud          </a>
+  </li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li>
+  <a href="../../transparencia.html" >
+        
+    Transparencia          </a>
+  
+              <ul class="dropdown-menu" role="menu">
+  <li>
+  <a href="../../transparencia.html" >
+        
+    IMSS Transparente          </a>
+  </li>
+
+<li>
+  <a href="../../transparencia/normatividad-fp.html" >
+        
+    Normatividad          </a>
+  </li>
+
+<li>
+  <a href="../../transparencia/comite-informacion-fp.html" >
+        
+    Acceso a la información          </a>
+  </li>
+
+<li>
+  <a href="../../transparencia/proactiva-fp.html" >
+        
+    Transparencia Proactiva          </a>
+  </li>
+
+<li>
+  <a href="../../transparencia/participacion-ciudadana.html" >
+        
+    Participación Ciudadana          </a>
+  </li>
+
+<li>
+  <a href="../../transparencia/indicadores-estudios.html" >
+        
+    Indicadores          </a>
+  </li>
+
+<li>
+  <a href="../../transparencia/recomendaciones-fp.html" >
+        
+    Recomendaciones y Resoluciones por Disposición          </a>
+  </li>
+
+<li>
+  <a href="http://www.imss.gob.mx/sites/all/statics/pdf/transparencia/FP-EstudiosOpiniones.pdf" >
+        
+    Estudios financiados          </a>
+  </li>
+
+<li>
+  <a href="../../transparencia/rendicion-cuentas-fp.html" >
+        
+    Programas e informes          </a>
+  </li>
+
+<li>
+  <a href="../../transparencia/normatividad-fp.html" >
+        
+    Normatividad en transparencia          </a>
+  </li>
+</ul>
+</li>
+
+<li>
+  <a href="../../directorio.html" >
+        
+    Directorio          </a>
+  
+              <ul class="dropdown-menu" role="menu">
+  <li>
+  <a href="../../directorio.html" >
+        
+    Directorio de instalaciones          </a>
+  </li>
+
+<li>
+  <a href="http://portaltransparencia.gob.mx/pot/directorio/begin.do?method=begin&amp;_idDependencia=641" >
+        
+    Directorio de funcionarios          </a>
+  </li>
+</ul>
+</li>
+
+<li>
+  <a href="../../contacto.html" >
+        
+    Contacto          </a>
+  </li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+
+<!--<div class="warning-nav">
+	    <p>Este contenido será modificado temporalmente en atención a las disposiciones legales y normativas en materia electoral, con motivo del inicio de periodo de campaña</p>
+	 </div>-->
+  </div>
+</div>
+  </div>
+
+      </div></header> <!-- /.section, /#header -->
+
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main"  class="clearfix">
+
+        <div id="breadcrumb">  <div class="region region-breadcrumb">
+    <div id="block-easy-breadcrumb-easy-breadcrumb" class="block block-easy-breadcrumb">
+
+    
+  <div class="content">
+    <ol class="breadcrumb"><li><a href="../../index.html"><span class="icon icon-home"></span><span class="sr-only"></span></a></li><li></li> <li><a href="../../index.html" class="easy-breadcrumb_segment easy-breadcrumb_segment-front">Inicio</a> <li> <li><a href="../../prensa.html" class="easy-breadcrumb_segment easy-breadcrumb_segment-1">Prensa</a> <li> <li><a href="../archivo.html" class="easy-breadcrumb_segment easy-breadcrumb_segment-2">Archivo</a> <li> <li><a href="201712.html" class="easy-breadcrumb_segment easy-breadcrumb_segment-title active">Diciembre 2017</a> <li></ol>  </div>
+</div>
+<div id="block-block-10" class="block block-block">
+
+    
+  <div class="content">
+    <!-- AddThis Smart Layers BEGIN -->
+<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+<!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=imss"></script>
+<script type="text/javascript">
+  addthis.layers({
+    'theme' : 'transparent',
+    'share' : {
+      'position' : 'left',
+      'numPreferredServices' : 5
+    }   
+  });
+</script>-->
+<!-- AddThis Smart Layers END -->  </div>
+</div>
+  </div>
+</div>    
+    <div id="content" class="column" role="main"><div class="section">
+            <a id="main-content"></a>
+                    <h2 id="page-title">
+          Comunicados, Diciembre 2017        </h2>
+        <hr class="red">
+                          <div class="tabs">
+                  </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="view view-archive view-id-archive view-display-id-page view-dom-id-416bcd52577e269beeab245672140ddd">
+            <div class="view-header">
+      <span id="variableTituloArchivoComunicados">Diciembre 2017</span>
+<script>
+var clave = jQuery("#variableTituloArchivoComunicados").text();
+if (clave != "%"+"1") {
+clave ='<div class="colCom">';
+clave +='<div class="top-borders Cabecera1"><div class="CabeceraPadding">Comunicado</div></div>';
+clave +='<div class="top-borders Cabecera2"><div class="CabeceraPadding"><img src="http://www.imss.gob.mx/sites/all/statics/down_flecha.png"></div></div>';
+clave +='</div>';
+clave +='<div class="colCom colComSecundaria">';
+clave +='<div class="top-borders Cabecera1"><div class="CabeceraPadding">Comunicado</div></div>';
+clave +='<div class="top-borders Cabecera2"><div class="CabeceraPadding"><img src="http://www.imss.gob.mx/sites/all/statics/down_flecha.png"</div></div>';
+clave +='</div>';
+ jQuery("#variableTituloArchivoComunicados").text("");
+ jQuery("#variableTituloArchivoComunicados").append(clave);
+} else {
+ jQuery("#variableTituloArchivoComunicados").text("");
+ jQuery("#variableTituloArchivoComunicados").append('<h1 class="title" id="page-title">Comunicados</h1>');
+}
+</script>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom1 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/399">Aumenta la Atención en Urgencias por Accidentes Ocasionados con Juguetes</a></div>
+<div class="pane-note">No.399/2017, 31 de Diciembre de 2017</div>
+<div class="pane-note tab">Especialistas del IMSS recomiendan regalar juguetes que estimulen el desarrollo físico y mental de los menores.</div>
+</div>
+<div class="lateral-borders descargables1"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-2">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom1 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/398">Aumentan hasta 30% los Accidentes de Niños en el Hogar, durante el Periodo Vacacional</a></div>
+<div class="pane-note">No.398/2017, 30 de Diciembre de 2017</div>
+<div class="pane-note tab">Quemaduras, caídas e intoxicación, las principales lesiones que sufren los menores en el hogar y que son atendidas en las áreas de Urgencias del IMSS.</div>
+</div>
+<div class="lateral-borders descargables1"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-3">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom0 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/397">El IMSS atiende recomendación de la CNDH, por caso ocurrido en Hospital Rural en San Cristóbal de las Casas, Chiapas</a></div>
+<div class="pane-note">No. 397/2017  , 29 de Diciembre de 2017</div>
+<div class="pane-note tab">•El Seguro Social colaborará ampliamente con la Comisión Nacional de los Derechos Humanos en el seguimiento y cumplimiento de la Recomendación.</div>
+</div>
+<div class="lateral-borders descargables0"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-4">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom0 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/396">En 2017, el IMSS registró avances y logros en el área financiera, digitalización de trámites y servicios médicos</a></div>
+<div class="pane-note">No. 396/2017  , 29 de Diciembre de 2017</div>
+<div class="pane-note tab">Por segundo año consecutivo, el Instituto dejó de utilizar reservas para su financiamiento y continuará operando en números negros.</div>
+</div>
+<div class="lateral-borders descargables0"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-5">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom1 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/395">Concluye la Gira IMSS Cultural Teatros 2017</a></div>
+<div class="pane-note">No. 395/2017  , 28 de Diciembre de 2017</div>
+<div class="pane-note tab">•De septiembre a diciembre 2017, se presentaron seis obras y se logró una asistencia superior a las 14 mil personas.</div>
+</div>
+<div class="lateral-borders descargables1"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-6">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom1 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/394">El martes 2 de enero pensionados del IMSS contarán con su pago de manera oportuna</a></div>
+<div class="pane-note">No. 394/2017  , 27 de Diciembre de 2017</div>
+<div class="pane-note tab"></div>
+</div>
+<div class="lateral-borders descargables1"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-7">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom0 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/393"> Hasta Cinco Kilos de Peso se Puede Aumentar en las Fiestas de Fin de Año</a></div>
+<div class="pane-note">No.393/2017, 23 de Diciembre de 2017</div>
+<div class="pane-note tab">El IMSS hace un llamado a comer y beber con moderación para evitar obesidad, sobrepeso y altos niveles de glucosa, colesterol, triglicéridos y presión arterial.</div>
+</div>
+<div class="lateral-borders descargables0"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-8">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom0 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/392">Especialistas del IMSS atienden la depresión navideña</a></div>
+<div class="pane-note">No. 392/2017  , 22 de Diciembre de 2017</div>
+<div class="pane-note tab">•Los casos de suicidios por depresión llegan a aumentar en esta temporada, pero hay acciones para contrarrestarla.</div>
+</div>
+<div class="lateral-borders descargables0"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-9">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom1 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/391">Centros Vacacionales IMSS abiertos al público en general </a></div>
+<div class="pane-note">No. 391/2017, 21 de Diciembre de 2017</div>
+<div class="pane-note tab">Diversión y descanso con los mejores climas esperan a visitantes en Oaxtepec, Morelos; así como en La Trinidad y Malintzi en Tlaxcala.</div>
+</div>
+<div class="lateral-borders descargables1"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-10">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom1 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/390">El IMSS realizó más de 8,400 cirugías en 2017 a través de los encuentros médico quirúrgicos</a></div>
+<div class="pane-note">No. 390/2017  , 20 de Diciembre de 2017</div>
+<div class="pane-note tab">•Se efectuaron 29 jornadas médicas en diversas especialidades, en las que fueron valorados 14,631 pacientes, la mayoría en comunidades rurales e indígenas.</div>
+</div>
+<div class="lateral-borders descargables1"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-11">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom0 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/389">Hombres, los más afectados por dolor en espalda baja</a></div>
+<div class="pane-note">No. 389/2017  , 19 de Diciembre de 2017</div>
+<div class="pane-note tab">Son adultos jóvenes de 25 a 45 años de edad, que por malas posturas al sentarse, acostarse o cargar objetos pesados, presentan el cuadro doloroso.</div>
+</div>
+<div class="lateral-borders descargables0"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-12">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom0 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/388">Reconoce IMSS al personal con más años de servicio</a></div>
+<div class="pane-note">No. 388/2017, 18 de Diciembre de 2017</div>
+<div class="pane-note tab">El Director General del Instituto, Tuffic Miguel, felicitó a los 437 trabajadores que han laborado en el Seguro Social entre 25 y 55 años.</div>
+</div>
+<div class="lateral-borders descargables0"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-13">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom1 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/387"> El IMSS Atiende Recomendación de la CNDH, sobre Derechos Humanos de Menores de Edad en el Estado de Sonora</a></div>
+<div class="pane-note">No.387/2017, 17 de Diciembre de 2017</div>
+<div class="pane-note tab">El Seguro Social colaborará ampliamente con la Comisión Nacional de los Derechos Humanos en el cumplimiento de la Recomendación.</div>
+</div>
+<div class="lateral-borders descargables1"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-14">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom1 lateral-borders">
+<div class="tituloArchivo"><a href="201712/386.html">Por sus Servicios Digitales, IMSS Gana Ocho Premios de Excelencia y Tres Reconocimientos</a></div>
+<div class="pane-note">No.386/2017, 17 de Diciembre de 2017</div>
+<div class="pane-note tab">El Seguro Social es la primera institución del Gobierno Federal que recibe el Sello a la Excelencia por la digitalización de trámites y servicios, que en cinco años registran casi 190 millones de gestiones.</div>
+</div>
+<div class="lateral-borders descargables1"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-15">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom0 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/385">IMSS Exhibe Obras Icónicas de la Seguridad Social, del Pintor y Escultor Federico Cantú </a></div>
+<div class="pane-note">No.385/2017 , 16 de Diciembre de 2017</div>
+<div class="pane-note tab">La Madonna, obra emblemática que da identidad al Seguro Social y 57 piezas más integran la muestra “Federico Cantú y el IMSS”, inaugurada por el Director General, Tuffic Miguel.</div>
+</div>
+<div class="lateral-borders descargables0"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-16">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom0 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/384"> IMSS publica en Diario Oficial criterios para el otorgamiento de incapacidades por partos prematuros</a></div>
+<div class="pane-note">No. 384/2017, 14 de Diciembre de 2017</div>
+<div class="pane-note tab">Con esta adecuación, se brindarán invariablemente 84 días de descanso por concepto de incapacidad por maternidad.</div>
+</div>
+<div class="lateral-borders descargables0"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-17">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom1 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/383">Entregan UNAM, fundación UNAM e IMSS premio a la investigación en Prevención para la salud 2017</a></div>
+<div class="pane-note">No. 383/2017, 14 de Diciembre de 2017</div>
+<div class="pane-note tab">El rector Enrique Graue; el director del IMSS, Tuffic Miguel, y el titular de Fundación UNAM, Dionisio Meade, entregaron los reconocimientos</div>
+</div>
+<div class="lateral-borders descargables1"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-18">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom1 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/282">Tuffic Miguel rinde protesta como Director General ante el Consejo Técnico Del IMSS</a></div>
+<div class="pane-note">No. 382/2017, 13 de Diciembre de 2017</div>
+<div class="pane-note tab">El órgano tripartita tomó nota del nombramiento que hizo el Presidente de la República, Enrique Peña Nieto, el pasado 7 de diciembre.</div>
+</div>
+<div class="lateral-borders descargables1"> 
+<div class="descargas"><a href="http://www.imss.gob.mx/sites/all/statics/i2f_news/_DSF4826.JPG"><img src="http://www.imss.gob.mx/sites/all/statics/pic.jpg"/></a></div> </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-19">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom0 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/381">IMSS iniciará el año fortaleciendo su infraestructura hospitalaria</a></div>
+<div class="pane-note">No. 381/2017, 13 de Diciembre de 2017</div>
+<div class="pane-note tab">En enero se inaugurará el hospital de Nogales, Sonora, con 144 camas y 44 especialidades, y en abril el hospital de León, Guanajuato, de 240 camas.</div>
+</div>
+<div class="lateral-borders descargables0"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-20">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom0 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/380"> El IMSS realiza una donación cruzada de riñón, por primera vez en el Hospital La Raza</a></div>
+<div class="pane-note">No. 380/2017, 12 de Diciembre de 2017</div>
+<div class="pane-note tab">Especialistas del Hospital General de La Raza realizan el trasplante del órgano con donadores vivos no compatibles.</div>
+</div>
+<div class="lateral-borders descargables0"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-21">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom1 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/ISSSTE139">Ofrece ISSSTE bajar 2.6 toneladas de sobrepeso entre sus trabajadores</a></div>
+<div class="pane-note">ISSSTE139/2017, 11 de Diciembre de 2017</div>
+<div class="pane-note tab">José Reyes Baeza lanza reto “Resta Kilos, Suma Vida”, enfocado a combatir la prevalencia de sobrepeso y obesidad que en el Instituto es del 76.3%, más alta que la media nacional. </div>
+</div>
+<div class="lateral-borders descargables1"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-22">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom1 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/379">Más de 4 mil Personas Participaron en la 5ª Carrera Navideña IMSS 2017 que Promueve el Deporte</a></div>
+<div class="pane-note">No.379/2017 , 10 de Diciembre de 2017</div>
+<div class="pane-note tab">El Director General, Tuffic Miguel Ortega, encabezó la quinta edición de la competencia que partió de las Oficinas Centrales del Instituto.</div>
+</div>
+<div class="lateral-borders descargables1"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-23">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom0 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/378">Con Terapia, IMSS Previene Infarto y Derrame Cerebral en Pacientes que Roncan</a></div>
+<div class="pane-note">No.378/2017, 9 de Diciembre de 2017</div>
+<div class="pane-note tab">Es un procedimiento innovador para usuarios de equipo de ventilación mecánica no invasiva, que se brinda en el HGR1 “Dr. Carlos Mac Gregor Sánchez Navarro”.</div>
+</div>
+<div class="lateral-borders descargables0"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-24">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom0 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/377"> Mikel Arriola deja el IMSS y Tuffic Miguel Ortega asume la Dirección General</a></div>
+<div class="pane-note">No. 377/2017, 7 de Diciembre de 2017</div>
+<div class="pane-note tab">En 22 meses, Mikel Arriola dio al IMSS viabilidad económica, eliminó trámites innecesarios a través de la digitalización e impulsó el plan de infraestructura más ambicioso de las últimas décadas.</div>
+</div>
+<div class="lateral-borders descargables0"> 
+<div class="descargas"><a href="http://www.imss.gob.mx/sites/all/statics/i2f_news/CV%20Tuffic.pdf"><img src="http://www.imss.gob.mx/sites/all/statics/pdf.jpg"/></a></div> </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-25">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom1 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/376">Cerca de los 3.5 millones, la creación de empleos en la actual administración</a></div>
+<div class="pane-note">No. 376/2017, 5 de Diciembre de 2017</div>
+<div class="pane-note tab">Al 30 de noviembre de 2017 se tienen registrados ante el Instituto 19,755,991 puestos de trabajo. El 85% son de tipo permanente</div>
+</div>
+<div class="lateral-borders descargables1"> 
+<div class="descargas"><a href="http://www.imss.gob.mx/sites/all/statics/i2f_news/051217%20Com%20376.pdf"><img src="http://www.imss.gob.mx/sites/all/statics/pdf.jpg"/></a></div> </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-26">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom1 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201711/375">Hospital de Cardiología de Monterrey gana por segunda ocasión el Premio Iberoamericano de la Calidad</a></div>
+<div class="pane-note">No. 375/2017, 4 de Diciembre de 2017</div>
+<div class="pane-note tab">Esta vez el galardón fue otorgado en República Dominicana por el Presidente de ese país, y fue recibido por el Director de Prestaciones Médicas del IMSS, José de Jesús Arriaga Dávila.</div>
+</div>
+<div class="lateral-borders descargables1"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-27">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom0 lateral-borders">
+<div class="tituloArchivo"><a href="201711/374.html">IMSS Digital recibe reconocimiento Internacional</a></div>
+<div class="pane-note">No. 374/2017, 4 de Diciembre de 2017</div>
+<div class="pane-note tab">La aplicación IMSS Digital es la más descargada del Gobierno de la República con 2.1 millones y la primera a nivel nacional en el rubro de salud, con más de 183 millones de trámites y servicios.</div>
+</div>
+<div class="lateral-borders descargables0"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-28">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom0 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201711/373"> El IMSS atiende recomendación de la CNDH, por caso ocurrido en comunidad agrícola de Coahuila</a></div>
+<div class="pane-note">No. 373/2017, 4 de Diciembre de 2017</div>
+<div class="pane-note tab">El Seguro Social colaborará ampliamente con la Comisión Nacional de los Derechos Humanos (CNDH) en el seguimiento y cumplimiento de la Recomendación emitida a diversas autoridades, entre las que se encuentra el IMSS.</div>
+</div>
+<div class="lateral-borders descargables0"> 
+ </div>
+</div></div>  </div>  </div>
+  <div class="views-row views-row-29">
+      
+  <div class="views-field views-field-body">        <div class="field-content"><div id="wrapperCom">
+<div class="groupCom1 lateral-borders">
+<div class="tituloArchivo"><a href="http://imss.gob.mx/prensa/archivo/201712/372">Después de dos meses de reparaciones y mejoras el Centro Vacacional IMSS Oaxtepec reabre sus puertas</a></div>
+<div class="pane-note">No. 372/2017, 1 de Diciembre de 2017</div>
+<div class="pane-note tab">El Director General de IMSS Mikel Arriola, informó que los seis hoteles y las cabañas fueron equipadas con aire acondicionado, pantallas e internet.</div>
+</div>
+<div class="lateral-borders descargables1"> 
+ </div>
+</div></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div class="colComFoot"></div>    </div>
+  
+  
+</div>  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+        
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></main> <!-- /#page, /#page-wrapper -->
+    
+<!-- REPLACE ANALYTICS TRACJ EVENTS -->
+<!--<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-47165435-1', 'imss.gob.mx');
+ ga('send', 'pageview');
+
+</script>
+-->
+<!-- END ANALYTICS -->
+  <script type="text/javascript">
+      var gaq; 
+      var _gaq = gaq || [];
+      _gaq.push(['_setAccount', 'UA-47165435-1']);
+      _gaq.push(['_setDomainName', 'imss.gob.mx']);
+      _gaq.push(['_setAllowLinker', true]);
+       _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
+                      + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+
+  </script>
+
+  <script src="https://framework-gb.cdn.gob.mx/assets/scripts/plugins.js"></script>
+  <script src="https://framework-gb.cdn.gob.mx/assets/scripts/vendor/modernizr.js"></script>
+  <script src="https://framework-gb.cdn.gob.mx/assets/scripts/vendor/pace.min.js"></script>
+  
+  <script>var $ = jQuery;</script>
+  <script src="https://framework-gb.cdn.gob.mx/assets/scripts/main.js"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"4b2cd8a967","applicationID":"131730225","transactionName":"MlEEZxFZDRVQUE0LCQsbJ1AXUQwIHkVQBxEWaxZSBF0=","queueTime":0,"applicationTime":454,"atts":"HhYHEVlDHhs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

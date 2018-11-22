@@ -1,0 +1,496 @@
+
+	.s70{
+		width:50%;
+	}
+	.s30{
+		width: 50%;
+		
+
+	}
+	.bleft{
+		float: left;
+	}
+	#cregistro{
+		
+		
+		width: 83%;
+		min-height: 260px;
+		text-align: left;
+		
+		line-height: 22px;
+		background: url('http://imss.gob.mx/sites/all/statics/maternidad/img/botonsote_diariomaternidad.png') no-repeat;
+		background-size:80%;
+		margin:auto;
+		background-position:top;
+	}
+	.frlab{
+		font-family: Verdana;
+		color:#444242;
+		font-size:13px;
+		line-height: 16px;
+		margin-bottom:10px;
+		font-weight: normal;
+	}
+	.frinp{
+		font-family: Verdana;
+		color:#444242;
+		font-size:13px;
+		border-radius: 10px;
+		border: 1px solid #c9c9c9;
+		font-weight: normal;
+		width:90%;
+	}
+	#sentrar{
+		text-align: center;
+		padding-left:20px;
+		padding-right:20px;
+		padding-top:5px;
+		padding-bottom:5px;
+		font-family: Verdana
+		font-size:13px;
+		font-weight: normal;
+		color:#FFFFFF;
+		background: #E86C5C;
+		border:none;
+		margin-right:20px;
+		border-radius:10px;
+		margin-top:20px;
+	}
+	.pagetitle{
+		color:#428071;
+		font-size:19px;
+		line-height: 23px;
+		margin-bottom: 10px;
+		margin-top:10px;
+	}
+	.bloque3{
+		text-align: center;
+		margin: auto;
+		width:100%;
+		margin-top:20px;
+	}
+	.b3p{
+		width:29%;
+		float:left;
+		margin-left:20px;
+		margin-right:20px;
+		background: #FFF4C3;
+	}
+	.tnum{
+		float:left;
+		width:20%;
+		text-align:center;
+		vertical-align: middle;
+		margin-bottom:10px;
+	}
+	.ttitle{
+		float: left;
+		width:80%;
+		text-align:center;
+	}
+	.ttitle a{
+		text-decoration:underline;
+		font-size:16px;
+		line-height: 20px;
+		
+		color:#444242;
+	}
+	.ttitle >a>div{
+		margin-top:15px;
+	}
+	.ptext{
+		font-size:13px;
+		padding:15px;
+		text-align: left;
+		height:86px;
+	}
+	#bincapatex{
+		padding:10px;
+		background:#D1D1D1;
+		width: 100%;
+		min-height: 289px;
+		text-align: left;
+	}
+	.bloque2{
+		margin-top:30px;
+		margin-left:20px;
+		width:93.5%;
+	}
+	#menu_svg{
+		height:46px;
+		width:889px ;
+		margin:auto;
+		margin-bottom:30px;
+	}
+	.menumes{
+		float:left;
+		width:98.7px;
+		text-align: center;
+		background-image: url('http://imss.gob.mx/sites/all/statics/maternidad/img/flecha1_over.png');
+		background-repeat: no-repeat;
+		width:112.7px;
+		margin-left:-14px;
+		padding-top:23px;
+		height:40px;
+	}
+	.menumes> a{
+		color:#444242;
+	}
+	.menumes:hover{
+	background-image: url('http://imss.gob.mx/sites/all/statics/maternidad/img/flecha1.png');
+	color:#FFFFFF;
+	}
+	.menumes:hover >a{
+		color:#FFFFFF;
+	}
+	.selectedmonth{
+		background-image: url('http://imss.gob.mx/sites/all/statics/maternidad/img/flecha1.png');
+	color:#FFFFFF;
+	}
+	.selectedmonth> a{
+		color:#FFFFFF;
+	}
+
+	.lfoo{
+		width:46%;
+		margin-right: auto;
+		min-height: 200px;
+		float:left;
+		background: #fff4c3;
+		margin-top:20px;
+		/*#e86c5c;*/
+	}
+	.lfooheader
+	{
+		background: #e86c5c;
+		color:#FFFFFF;
+		padding:10px;
+		text-align: center;
+	}
+	.lfoobody{
+		padding:10px;
+		text-align: left;
+	}
+	#crheader{
+		color:#287B6A;
+		padding:10px;
+		text-align: center;
+		font-size:19px;
+		
+		font-size:19px;
+		line-height: 30px;
+	}
+	#crfooter{
+		text-align: center;
+	}
+	.titlemonth{
+		padding:10px;
+		font-weight: bold;
+		
+		color:#FFFFFF;
+		background: #e86c5c;
+	}
+	.bodymonth{
+		padding:10px;
+		background: #fff4c3;
+		height: 100px;
+	}
+	.montht{
+		display:none;
+		width:95%;
+		margin:auto;
+	}
+.bodyimages div{
+background:#F4BE78;
+width:33.33%;
+float:left;
+text-align: center;
+height: auto;
+min-height: 340px;
+padding-top:10px;
+}
+.bimgtxt{
+	text-align: left!important;
+}
+
+#jcmain{
+margin:auto;
+	   text-align: center;
+	   width:80%;
+	font-size:15px;
+}
+#jcmain div a{
+	color: #287B6A
+	
+	}
+	#jcmain div a:hover, #jcmain div a:visited, #jcmain div a:active{
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	#jcmain div a:focus{
+	text-decoration: none;
+	border: none;
+	}
+.cdivjs{
+	float:left;
+	width:25%;
+	margin:auto;
+	text-align: center;
+}
+#cmain, #cdmama, #ccuarentena{
+	 margin: auto;
+   
+    text-align: center;
+    
+}
+#jcmiddle{
+	width:50%;
+}
+#clactancia, #cestas
+{
+	margin-top:60%;
+	margin-bottom:50%;
+}
+#cdmama, #cmain{
+	margin-bottom:5%;
+}
+#flastitle{
+	background: #287B6A;
+	padding:10px;
+	color:#FFFFFF;
+	font-weight: bold;
+	width:100%;
+}
+#flastbody{
+	padding-top:20px;
+	border:2px solid #287B6A;
+	min-height: 130px;
+	width:101.7%;
+}
+#flastbody div{
+	width: 50%;
+	float:left;
+}
+#flastbody div ul{
+	margin-left:30px;
+}
+#flastbody div ul li a {
+	text-decoration: underline;
+	color:#444242;
+}
+.icgrande{
+	display: none;
+}
+#dicprincipal{
+	display:block;
+}
+img, img:hover{
+	text-decoration: none!important;
+	border:none!important;
+}
+
+
+
+#imtitle{
+	color:#287B6A;
+	font-size:19px;
+	margin-bottom:15px;
+}
+#imtitle span a{
+	font-size:19px;
+	color:#287B6A;
+	font-weight: bold;
+}
+#imtitle img{
+	vertical-align: middle;
+	margin-right:10px;
+}
+#midivision{
+	background: #287B6A;
+	height:2px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#mifooter div{
+	float:left;
+	width: 50%;
+
+}
+#mifooter div ul{
+	margin-left: 30px;
+}
+#mibanner{
+	text-align: center;
+}
+#mibanner img{
+	width: 100%;
+}
+
+
+
+#ulservicios li{
+margin-bottom:6px;}
+
+.pltitle{
+padding:10px;
+font-family:Soberana Titular;
+color:#FFFFFF;
+background-color:#4D7A6B;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+font-size:19px;
+margin-bottom:10px;
+}
+     
+   
+   #imtitle img{
+   vertical-align: middle;
+   margin-right:10px;
+   }
+   #midivision{
+   background: #287B6A;
+   height:2px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   }
+   #mifooter div{
+   float:left;
+   width: 50%;
+   }
+   #mifooter div ul{
+   margin-left: 30px;
+   }
+   #mibanner{
+   text-align: center;
+   }
+   #mibanner img{
+   width: 100%;
+   }
+   .mibodydiv{
+   float:left;
+   width: 65%
+   }
+   #mimenuright{
+   width:30%;
+   margin-left: 20px;
+   }
+   #mimenuright div{
+   background: #287B6A;
+   color:#FFFFFF;
+   padding: 5px;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   margin-bottom:20px;
+   }
+   #mimenuright ul{
+   margin-left:30px;
+   }
+   #mimenuright ul li{
+   	margin-bottom: 15px;
+   }
+   #menu_svg{
+   height:46px;
+   width:889px ;
+   margin:auto;
+   margin-bottom:30px;
+   }
+   .menumes{
+   float:left;
+   width:188px;
+   text-align: center;
+   background-image: url('http://imss.gob.mx/sites/all/statics/maternidad/img/flecha_clara.png');
+   background-repeat: no-repeat;
+   margin-left:-14px;
+   padding-top:23px;
+   height:40px;
+   }
+   .menumes> a{
+   color:#444242;
+   }
+   .menumes:hover{
+   background-image: url('http://imss.gob.mx/sites/all/statics/maternidad/img/flecha_fuerte.png');
+   color:#FFFFFF;
+   }
+   .menumes:hover >a{
+   color:#FFFFFF;
+   }
+   .selectedmonth{
+   background-image: url('http://imss.gob.mx/sites/all/statics/maternidad/img/flecha_fuerte.png');
+   color:#FFFFFF;
+   }
+   .selectedmonth> a{
+   color:#FFFFFF;
+   }
+   .lfoo{
+   width:46%;
+   margin-right: auto;
+   min-height: 200px;
+   float:left;
+   background: #fff4c3;
+   margin-top:20px;
+   /*#e86c5c;*/
+   }
+   .lfooheader
+   {
+   background: #e86c5c;
+   color:#FFFFFF;
+   padding:10px;
+   text-align: center;
+   }
+   .lfoobody{
+   padding:10px;
+   text-align: left;
+   }
+   #crheader{
+      color:#000000;
+   padding:10px;
+   text-align: center;
+   font-size:19px;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+   font-size:22px;
+   line-height: 40px;
+   }
+   #crfooter{
+   text-align: center;
+font-size:19px;
+   }
+   .titlemonth{
+   padding:10px;
+   font-weight: bold;
+   color:#FFFFFF;
+   background: #e86c5c;
+   }
+   .bodymonth{
+   padding:10px;
+   background: #fff4c3;
+   height: 100px;
+   }
+   .montht{
+   display:none;
+   width:95%;
+   margin:auto;
+   }
+   .bodyimages div{
+   background:#F4BE78;
+   width:33.33%;
+   float:left;
+   text-align: center;
+   height: auto;
+   min-height: 340px;
+   padding-top:10px;
+   }
+   .bimgtxt{
+   text-align: left!important;
+   }
+   .dcolumnas ul{
+   	margin-left: 30px;
+   }
+   #imsubtitle{
+		color: #287B6A;
+		font-size:17px;
+		line-height: 27px;
+		margin-bottom: 10px;
+		margin-top:10px;
+	}
