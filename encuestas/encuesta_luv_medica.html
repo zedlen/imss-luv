@@ -391,12 +391,61 @@ margin:0px !important;
   <div class="center-wrapper">
       <form>
         <div class="form-group">
-          <label class="label-control" for="estado">¿Que sintomas presentas? <span class="sr-only">Se debe ingresar nombre para poder continuar</span></label>
-          <input placeholder="Sintomas" id="sintoms" class="form-control small-bottom-buffer" name="sintoms">              
+          <label class="label-control" for="estado">¿Que sintomas presentas? <span class="sr-only">Se debe ingresar nombre para poder continuar</span></label>          
         </div>
-        
+
+        <div class="form-group form-inline"> 
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" name="sintoms" value="option1">
+            Tos
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" name="sintoms" value="option2">
+            Diarrea
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="sintoms" value="option3">
+            Fiebre
+          </div>  
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="sintoms" value="option3">
+            Migraña
+          </div>   
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox3" name="sintoms" value="option3">
+            Otro
+          </div>
+          <input placeholder="¿Cuál?" id="other" class="form-control small-bottom-buffer" name="other">                    
+        </div>
+
         <div class="form-group">
-          <button class="btn btn-primary">Continuar</button>    
+          <label class="label-control" for="estado">¿Desde cuando empezaste con el padecimiento? <span class="sr-only">Se debe ingresar nombre para poder continuar</span></label>
+          <select placeholder="Sintomas" id="sintoms" class="form-control small-bottom-buffer" name="sintoms">              
+            <option value=""></option>
+            <option value="12"> Hace 12 Horas</option>
+            <option value="24"> Hace 24 Horas</option>
+            <option value="36"> Hace 36 Horas</option>
+            <option value="48"> Hace 48 Horas</option>
+            <option value="+48"> HAce mas de 48 Horas</option>
+
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="label-control" for="estado">¿Has visitado o te ha visitado algún médico?? <span class="sr-only">Se debe ingresar nombre para poder continuar</span></label>
+          <select placeholder="Sintomas" id="sintoms" class="form-control small-bottom-buffer" name="sintoms">              
+            <option value=""></option>
+            <option value="yes"> Si </option>
+            <option value="no"> No </option>            
+          </select>
+        </div>
+        <script type="text/javascript">
+          function warawara() {
+            alert($("#sintoms").value())            
+          }
+        </script>
+        <div class="form-group">
+          <button type="button" class="btn btn-primary" onclick="warawara()">Continuar</button>    
         </div>  
       </form>
   </div>
