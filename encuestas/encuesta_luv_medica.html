@@ -389,7 +389,7 @@ margin:0px !important;
 </div>
   </div>
   <div class="center-wrapper">
-      <form>
+      <form id="formMedic">
         <div class="form-group">
           <label class="label-control" for="estado">¿Que sintomas presentas? <span class="sr-only">Se debe ingresar nombre para poder continuar</span></label>          
         </div>
@@ -420,7 +420,7 @@ margin:0px !important;
 
         <div class="form-group">
           <label class="label-control" for="estado">¿Desde cuando empezaste con el padecimiento? <span class="sr-only">Se debe ingresar nombre para poder continuar</span></label>
-          <select placeholder="Sintomas" id="sintoms" class="form-control small-bottom-buffer" name="sintoms">              
+          <select placeholder="Sintomas" id="timeAgo" class="form-control small-bottom-buffer" name="timeAgo">              
             <option value=""></option>
             <option value="12"> Hace 12 Horas</option>
             <option value="24"> Hace 24 Horas</option>
@@ -433,7 +433,7 @@ margin:0px !important;
 
         <div class="form-group">
           <label class="label-control" for="estado">¿Has visitado o te ha visitado algún médico?? <span class="sr-only">Se debe ingresar nombre para poder continuar</span></label>
-          <select placeholder="Sintomas" id="sintoms" class="form-control small-bottom-buffer" name="sintoms">              
+          <select placeholder="Sintomas" id="seenDoctor" class="form-control small-bottom-buffer" name="seenDoctor">              
             <option value=""></option>
             <option value="yes"> Si </option>
             <option value="no"> No </option>            
@@ -441,8 +441,33 @@ margin:0px !important;
         </div>
         <script type="text/javascript">
           function warawara() {
-            //alert($("#sintoms").value())            
-            window.open("https://ezapi35.prixfy.us/?myroom=96920&uname=onlinedemo&upass=online2018&chat=yes&chatname=paciente&bandwidth=625000&videorate=0")
+            var form = $("#formMedic").serializeArray()            
+            var hasSintoms = false
+            for (var i = 0; i < form.length; i++) {
+              if (form[i].name!='other') {
+                if (form[i].name=='sintoms') {
+                  hasSintoms = true
+                }
+                if (form[i].value == "") {
+                  alert('Faltan datos por ingresar')
+                  return 0;
+                }
+              }
+            }
+            if(!hasSintoms){
+              alert('Seleccionar al menos un sintoma')
+              return 0;
+            }
+            //alert($("#sintoms").value())    
+            if ($("#seenDoctor").val() == 'yes') {
+              alert('Sigue las indicaciones que te dio tu medico');
+            } else {
+              if ($("#seenDoctor").val() == 'no') {
+                window.open("https://ezapi35.prixfy.us/?myroom=96920&uname=onlinedemo&upass=online2018&chat=yes&chatname=paciente&bandwidth=625000&videorate=0")
+              } else{
+                alert('Selecciona una opcion para continuar')
+              }
+            }            
           }
         </script>
         <div class="form-group">

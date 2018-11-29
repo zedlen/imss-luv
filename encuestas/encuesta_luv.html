@@ -389,7 +389,7 @@ margin:0px !important;
 </div>
   </div>
   <div class="center-wrapper">
-      <form action="./encuesta_luv_medica.html">
+      <form action="./encuesta_luv_medica.html" id="formMedic">
         <div class="form-group">
           <label class="label-control" for="estado">Nombre <span class="sr-only">Se debe ingresar nombre para poder continuar</span></label>
           <input placeholder="Nombre" id="name" class="form-control small-bottom-buffer" name="name">              
@@ -419,8 +419,22 @@ margin:0px !important;
           <input placeholder="E-mail" id="email" class="form-control small-bottom-buffer" name="email">              
         </div>  
         
+         <script type="text/javascript">
+          function warawara() {            
+            var form = $("#formMedic").serializeArray()                        
+            for (var i = 0; i < form.length; i++) {
+              if (form[i].value == "") {
+                alert('Faltan datos por ingresar')
+                return 0;              
+              }
+            }  
+            $("#formMedic").submit()          
+          }
+        </script>
+
+
         <div class="form-group">
-          <button class="btn btn-primary">Continuar</button>    
+          <button class="btn btn-primary" type="button" onclick="warawara()">Continuar</button>    
         </div>  
       </form>
   </div>
