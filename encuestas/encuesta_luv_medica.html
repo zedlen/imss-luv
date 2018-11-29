@@ -463,7 +463,7 @@ margin:0px !important;
               alert('Sigue las indicaciones que te dio tu medico');
             } else {
               if ($("#seenDoctor").val() == 'no') {
-                window.open("https://ezapi35.prixfy.us/?myroom=96920&uname=onlinedemo&upass=online2018&chat=yes&chatname=paciente&bandwidth=625000&videorate=0")
+                window.open("https://ezapi35.prixfy.us/?myroom=96920&uname=onlinedemo&upass=online2018&chat=yes&chatname=paciente&bandwidth=625000&videorate=0&"+$("#formMedic").serialize()+'&'+window.location.search.replace('?',''))
               } else{
                 alert('Selecciona una opcion para continuar')
               }
