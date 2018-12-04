@@ -61,23 +61,23 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
 <!--<script type="text/javascript" id="User1st_Loader" src="https://fe.user1st.info/Loader/head"></script>-->
 <script type="text/javascript" id="User1st_Loader">
-	var _u1stSettings = {
-			analytics:
-			[
-				{"name":"create" , "trace": function(traceItem){ trace(traceItem); }}
-			],
-			tracing: 
-			{
-				gaAccount: 'UA-47165435-1'
-			}
-		};
-		
-		function trace(e){for(var s=function(e,s){return["_trackEvent","User1st",e,s]},a=function(e){var a=[],r="User1st.FE.";switch(e.name.toLowerCase()){case"mainmenu.open":a.push(s(r+"MainMenu.Open",""));break;case"mainmenu.close":a.push(s(r+"MainMenu.Close",""));break;case"sys.profileselected":a.push(s(r+"Sys.ProfileSelected",e.values.profileID));break;case"sys.featureschanged":for(var u=e.values.removedFeatures.split("|"),n=0;n<u.length;n++)a.push(s(r+"Sys.feature-TurnOff",u[n]));for(var t=e.values.selectedFreatures.split("|"),n=0;n<t.length;n++)a.push(s(r+"Sys.feature-TurnOn",t[n]));break;case"sys.userfeedback":keyValuePairs.push(r+"Sys.UserFeedback",e.values.type+" - "+e.values.content)}return a}(e),r=0;r<a.length;r++)_gaq.push(a[r])}
+  var _u1stSettings = {
+      analytics:
+      [
+        {"name":"create" , "trace": function(traceItem){ trace(traceItem); }}
+      ],
+      tracing: 
+      {
+        gaAccount: 'UA-47165435-1'
+      }
+    };
+    
+    function trace(e){for(var s=function(e,s){return["_trackEvent","User1st",e,s]},a=function(e){var a=[],r="User1st.FE.";switch(e.name.toLowerCase()){case"mainmenu.open":a.push(s(r+"MainMenu.Open",""));break;case"mainmenu.close":a.push(s(r+"MainMenu.Close",""));break;case"sys.profileselected":a.push(s(r+"Sys.ProfileSelected",e.values.profileID));break;case"sys.featureschanged":for(var u=e.values.removedFeatures.split("|"),n=0;n<u.length;n++)a.push(s(r+"Sys.feature-TurnOff",u[n]));for(var t=e.values.selectedFreatures.split("|"),n=0;n<t.length;n++)a.push(s(r+"Sys.feature-TurnOn",t[n]));break;case"sys.userfeedback":keyValuePairs.push(r+"Sys.UserFeedback",e.values.type+" - "+e.values.content)}return a}(e),r=0;r<a.length;r++)_gaq.push(a[r])}
 
-		var script = "<script type='text/javascript' src='https://fecdn.user1st.info/loader/head' ";
-	 (!(/u1st-runSync=1/).test(document.cookie)) && (script += "async='true'");
-	 script += " ><\/script>";
-	 document.write(script);
+    var script = "<script type='text/javascript' src='https://fecdn.user1st.info/loader/head' ";
+   (!(/u1st-runSync=1/).test(document.cookie)) && (script += "async='true'");
+   script += " ><\/script>";
+   document.write(script);
  </script>
    
 
@@ -319,7 +319,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
     
   <div class="content">
-    <ol class="breadcrumb"><li><a href="index.html"><span class="icon icon-home"></span><span class="sr-only"></span></a></li><li></li> <li><a href="index.html" class="easy-breadcrumb_segment easy-breadcrumb_segment-front">Inicio</a> <li> <li><a href="../salud-en-linea.html" class="easy-breadcrumb_segment">Salud En Linea</a> <li><li><a href="encuesta_luv.html" class="easy-breadcrumb_segment easy-breadcrumb_segment-title active">LUV</a> <li></li></ol>  </div>
+    <ol class="breadcrumb"><li><a href="index.html"><span class="icon icon-home"></span><span class="sr-only"></span></a></li><li></li> <li><a href="index.html" class="easy-breadcrumb_segment easy-breadcrumb_segment-front">Inicio</a> <li> <li><a href="../salud-en-linea.html" class="easy-breadcrumb_segment">Salud En Linea</a> <li><li><a href="encuesta_login_doctor.html" class="easy-breadcrumb_segment easy-breadcrumb_segment-title active">Doc. Login</a> <li></li></ol>  </div>
 </div>
 <div id="block-block-10" class="block block-block">
 
@@ -330,42 +330,12 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   </div>
 </div>    
     <div id="content" class="column" role="main"><div class="section">
-            <a id="main-content"></a> 
-           <style>
-              .grid-container {
-                display: grid;
-                /*grid-template-columns: 80% 20%;*/
-                grid-template-rows: 1fr;
-                grid-template-areas: ". .";
-              }
-              .button4 {background-color: #780000 !important;} /* Gray */               
-
-.button-class, .button-class:hover ,.button-class:focus, .button-class:visited {
-    display: block;    
-    /*background: #4E9CAF;*/
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    white-space: nowrap;
-    text-decoration: none;
-}
-            </style>
-        <div class="grid-container">
-
-          <div class="column">
+            <a id="main-content"></a>           
             <h2 id="page-title">
-          Línea Unica Virtual        </h2>
-          </div>
+          Inicio de Sesión Doctor        </h2>
+          
 
-          <div class="column">
-            <a class="button-class button4" href="./encuesta_login_doctor.html" style="max-width: 180px;">
-              <img src="../assets/corazon.png">
-              Doc. Login
-            </a>
-          </div>
-        </div>
+                  
         <hr class="red">
                           <div class="tabs">
                   </div>
@@ -468,7 +438,7 @@ margin:0px !important;
           <button class="btn btn-primary" type="button" onclick="warawara()">Continuar</button>    
         </div>  
       </form>-->
-      <script type="text/javascript">document.write(unescape("%3Cscript src='http" +  (document.location.protocol == 'https:' ? 's' : '') + "://www.coffeecup.com/api/sdrive/forms/form.js?name=formato_paciente%26slug=345050%26width=602%26height=2046%26crossdomains=true%26rand=" + Math.floor( Math.random() * 1000000000 ) + "' type='text/javascript'%3E%3C/script%3E"));</script>
+      <<script type="text/javascript">document.write(unescape("%3Cscript src='http" +  (document.location.protocol == 'https:' ? 's' : '') + "://www.coffeecup.com/api/sdrive/forms/form.js?name=doctor_login%26slug=345050%26width=602%26height=385%26crossdomains=true%26rand=" + Math.floor( Math.random() * 1000000000 ) + "' type='text/javascript'%3E%3C/script%3E"));</script>
   </div>
  </div>
   </div>
