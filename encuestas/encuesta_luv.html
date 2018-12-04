@@ -330,11 +330,42 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   </div>
 </div>    
     <div id="content" class="column" role="main"><div class="section">
-            <a id="main-content"></a>      
+            <a id="main-content"></a> 
+           <style>
+              .grid-container {
+                display: grid;
+                /*grid-template-columns: 80% 20%;*/
+                grid-template-rows: 1fr;
+                grid-template-areas: ". .";
+              }
+              .button4 {background-color: #780000 !important;} /* Gray */               
+
+.button-class, .button-class:hover ,.button-class:focus, .button-class:visited {
+    display: block;    
+    /*background: #4E9CAF;*/
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+    text-decoration: none;
+}
+            </style>
+        <div class="grid-container">
+
+          <div class="column">
             <h2 id="page-title">
-          Linea Unica Virtual        </h2>
+          Línea Unica Virtual        </h2>
           </div>
-          
+
+          <div class="column">
+            <a class="button-class button4" href="./encuestas/encuesta_luv.html" style="max-width: 180px;">
+              <img src="../assets/corazon.png">
+              Doc. Login
+            </a>
+          </div>
+        </div>
         <hr class="red">
                           <div class="tabs">
                   </div>
@@ -389,7 +420,7 @@ margin:0px !important;
 </div>
   </div>
   <div class="center-wrapper">
-      <form action="./encuesta_luv_medica.html" id="formMedic">
+      <!--<form action="./encuesta_luv_medica.html" id="formMedic">
         <div class="form-group">
           <label class="label-control" for="estado">Nombre <span class="sr-only">Se debe ingresar nombre para poder continuar</span></label>
           <input placeholder="Nombre" id="name" class="form-control small-bottom-buffer" name="name">              
@@ -436,7 +467,8 @@ margin:0px !important;
         <div class="form-group">
           <button class="btn btn-primary" type="button" onclick="warawara()">Continuar</button>    
         </div>  
-      </form>
+      </form>-->
+      <script type="text/javascript">document.write(unescape("%3Cscript src='http" +  (document.location.protocol == 'https:' ? 's' : '') + "://www.coffeecup.com/api/sdrive/forms/form.js?name=formato_paciente%26slug=345050%26width=602%26height=2046%26crossdomains=true%26rand=" + Math.floor( Math.random() * 1000000000 ) + "' type='text/javascript'%3E%3C/script%3E"));</script>
   </div>
  </div>
   </div>
